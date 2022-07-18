@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        avenirHeavy: ['AvenirHeavy'],
+        avenirLight: ['AvenirLight'],
+        helvetica: ['Helvetica']
+      }
+    },
   },
   plugins: [],
 }

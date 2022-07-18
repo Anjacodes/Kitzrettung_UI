@@ -1,11 +1,13 @@
 import React from 'react'
+import BackgroundCover from './BackgroundCover'
+import ForegroundCover from './ForegroundCover'
 
 function Cover() {
   return (
-    <div className="h-screen bg-[url('https://images.unsplash.com/photo-1591123195933-b2df071f444b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80')] bg-cover">
-      <div className="h-screen bg-black opacity-70"/>
+    <div className="static">
+      <BackgroundCover className="-z-10 static"/>
+      <ForegroundCover className="absolute top-0 z-10"/>
     </div>
-
   )
 }
 
