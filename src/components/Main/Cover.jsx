@@ -6,7 +6,6 @@ function Cover() {
   return (
     <div className="static">
       <BackgroundCover className="-z-10 static"/>
-      <ForegroundCover className="absolute top-0 z-10"/>
     </div>
   )
 }
