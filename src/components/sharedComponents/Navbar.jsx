@@ -3,13 +3,10 @@ import { Link } from 'react-router-dom'
 import MobileMenu from './MobileMenu';
 import logo from '../../assets/Rehkitz_negativ.png'
 
-function Navbar() {
-
-  const [menuVisible, setMenuVisible] = useState(false);
-  console.log(menuVisible)
+function Navbar({menuVisible, setMenuVisible}) {
 
   return (
-    <nav className="fixed top-0 text-white w-screen mt-10 flex items-center">
+    <nav className="absolute top-0 text-white w-screen mt-10 flex items-center">
       <MobileMenu visible={menuVisible}/>
       <button className="z-20 pl-[10%]" onClick={() => setMenuVisible(!menuVisible)}>
         { menuVisible ? (<i className="fa-solid fa-xmark"></i>) : (<i className="fa-solid fa-bars lg:hidden" ></i>)

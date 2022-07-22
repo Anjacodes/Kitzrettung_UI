@@ -6,7 +6,7 @@ function MobileMenu({visible}) {
   if (visible) {
     return (
     <div className='h-screen w-screen fixed top-0 bg-[#102613] text-white py-40 px-20'>
-      <Link to="/" className="hover:cursor-pointer"><img src={logo}className="w-20 mb-12"/></Link>
+      <Link to="/" className="hover:cursor-pointer"><img src={logo}className="w-28 mb-12"/></Link>
       <h2 className="mb-6 hover:text-[#45bf41] hover:cursor-pointer">Über uns</h2>
       <h2 className="mb-6 hover:text-[#45bf41] hover:cursor-pointer">Unsere Arbeit</h2>
       <h2 className="mb-6 hover:text-[#45bf41] hover:cursor-pointer">Vereinssatzung</h2>
