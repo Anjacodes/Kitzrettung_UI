@@ -12,14 +12,14 @@ function Navbar({menuVisible, setMenuVisible}) {
         { menuVisible ? (<i className="fa-solid fa-xmark"></i>) : (<i className="fa-solid fa-bars lg:hidden" ></i>)
         }
       </button>
-      <Link to="/" className="hover:cursor-pointer hidden lg:block"><img src={logo} className="w-28"/></Link>
+      <Link to="/" className="hover:cursor-pointer hidden lg:block"><img src={logo} className="w-32"/></Link>
       <ul className="hidden lg:flex ml-10 text-lg">
         <li className="ml-10 group">
-          <a className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider '>ÜBER UNS</a>
+          <Link to="/about" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider '>ÜBER UNS</Link>
           <ul className='absolute pt-2 hidden group-hover:block'>
             <li><a className='hover:cursor-pointer hover:text-second'>Unsere Motivation</a></li>
             <li><a className='hover:cursor-pointer hover:text-second'>Unser Verein</a></li>
-            <li><a className='hover:cursor-pointer hover:text-second'>Unsere Arbeit</a></li>
+            <li><Link to="work" className='hover:cursor-pointer hover:text-second'>Unsere Arbeit</Link></li>
           </ul>
         </li>
         <li className="ml-10 group">

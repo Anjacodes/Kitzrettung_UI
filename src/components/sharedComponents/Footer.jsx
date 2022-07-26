@@ -5,10 +5,10 @@ import logo from '../../assets/Rehkitz_negativ.png'
 function Footer() {
   return (
     <footer className="h-[50vh] bg-[#4b8c48] text-white">
-      <div className="mx-[5vw] pt-12 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20">
+      <div className="mx-[5vw] pt-6 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20">
         <div className="flex">
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
-            <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">ÜBER UNS</a>
+            <Link to="/about" className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">ÜBER UNS</Link>
             <ul className='hidden group-hover:block lg:block'>
               <li><a className="hover:text-first hover:cursor-pointer">Motivation</a></li>
               <li><a className="hover:text-first hover:cursor-pointer">Verein</a></li>
@@ -37,14 +37,14 @@ function Footer() {
         </div>
         <div className='flex justify-between mt-auto lg:mt-0'>
           <div>
-            <h3>FOLLOW US</h3>
+            <h3 className='text-white'>FOLLOW US</h3>
             <div>
               <i className="fa-brands fa-facebook mr-3"></i>
               <i className="fa-brands fa-instagram"></i>
             </div>
           </div>
           <div className='w-1/2'>
-            <h3 className='mb-1'>WERDE MITGLIED</h3>
+            <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
             <p className='text-sm mb-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div className="flex items-center">
             <input type="email" placeholder="Email" className="text-base py-2 px-2 rounded-l-lg"></input>

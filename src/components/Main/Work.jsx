@@ -4,7 +4,7 @@ import workExamples from './workExamples';
 function Work() {
   return (
     <section className="mt-48">
-      <h2 className="mb-6 text-2xl text-slate-700 tracking-wide">UNSERE ARBEIT</h2>
+      <h2 className="mb-6 text-2xl tracking-wide">UNSERE ARBEIT</h2>
       <div className="flex items-center mt-32 w-full justify-between relative">
         <div className="lg:w-[90%] lg:mr-28 z-10">
             <h3>{workExamples[0].title}</h3>

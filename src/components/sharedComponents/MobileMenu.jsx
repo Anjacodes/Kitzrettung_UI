@@ -9,7 +9,7 @@ function MobileMenu({visible}) {
       <Link to="/" className="hover:cursor-pointer"><img src={logo}className="w-28 mb-12"/></Link>
      <ul>
         <li className="font-avenirHeavy mb-6 hover:cursor-pointe group">
-          <a className='hover:text-second'>ÜBER UNS</a>
+          <Link to="/about" className='hover:text-second'>ÜBER UNS</Link>
           <ul className='text-base hidden group-hover:block'>
             <li><a className='hover:text-second hover:cursor-pointer'>Unsere Motivation</a></li>
             <li><a className='hover:text-second hover:cursor-pointer'>Unser Verein</a></li>
