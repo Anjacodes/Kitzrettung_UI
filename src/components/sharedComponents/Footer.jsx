@@ -10,9 +10,9 @@ function Footer() {
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
             <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">ÜBER UNS</a>
             <ul className='hidden group-hover:block lg:block'>
-              <li><a className="hover:text-first hover:cursor-pointer">Unsere Motivation</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Unser Verein</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Unsere Arbeit</a></li>
+              <li><a className="hover:text-first hover:cursor-pointer">Motivation</a></li>
+              <li><a className="hover:text-first hover:cursor-pointer">Verein</a></li>
+              <li><a className="hover:text-first hover:cursor-pointer">Arbeit</a></li>
             </ul>
           </div>
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
@@ -35,7 +35,7 @@ function Footer() {
             <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">SPENDEN</a>
           </div>
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between mt-auto lg:mt-0'>
           <div>
             <h3>FOLLOW US</h3>
             <div>
