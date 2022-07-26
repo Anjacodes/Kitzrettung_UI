@@ -2,8 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: AvenirHeavy;
+  src: url(/fonts/AvenirLTStd/Heavy/AvenirLTStd85Heavy.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AvenirLight;
+  src: url(/fonts/AvenirLTStd/Light/AvenirLTStd35Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(/fonts/HelveticaNeueCyrLight/HelveticaNeueCyrLight.ttf) format("truetype");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "AvenirHeavy", sans-serif;
+}
+
+p,
+li,
+ul {
+  font-family: "Helvetica", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
