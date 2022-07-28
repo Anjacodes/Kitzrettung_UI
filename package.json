@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "svite --port 5173",
     "preview": "vite preview",
     "lint-js": "eslint --ignore-path .gitignore .",
     "lint-js-fix": "eslint --ignore-path .gitignore . --fix",
@@ -20,6 +21,7 @@
     "react-countup": "^6.3.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
+    "serve": "^14.0.1",
     "vite": "^3.0.0"
   },
   "devDependencies": {
