@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import MobileMenu from './MobileMenu';
 import logo from '../../assets/Rehkitz_negativ.png'
 
@@ -19,7 +19,7 @@ function Navbar({menuVisible, setMenuVisible}) {
           <ul className='absolute pt-2 hidden group-hover:block'>
             <li><a className='hover:cursor-pointer hover:text-second'>Unsere Motivation</a></li>
             <li><a className='hover:cursor-pointer hover:text-second'>Unser Verein</a></li>
-            <li><Link to="work" className='hover:cursor-pointer hover:text-second'>Unsere Arbeit</Link></li>
+            <li><NavLink to="/about/work" className='hover:cursor-pointer hover:text-second'>Unsere Arbeit</NavLink></li>
           </ul>
         </li>
         <li className="ml-10 group">
