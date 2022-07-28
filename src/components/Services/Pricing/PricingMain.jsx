@@ -1,7 +1,7 @@
 import React from 'react'
 import UnderConstruction from '../../UnderConstruction'
 
-function Work() {
+function PricingMain() {
   return (
     <div>
       <UnderConstruction />
@@ -9,4 +9,4 @@ function Work() {
   )
 }
 
-export default Work
+export default PricingMain
