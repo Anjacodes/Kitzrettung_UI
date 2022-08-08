@@ -1,31 +1,32 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import workExamples from './workExamples';
 
 function Work() {
   return (
     <section className="mt-48">
-      <h2 className="mb-6 text-2xl text-slate-700 tracking-wide">UNSERE ARBEIT</h2>
+      <h2 className="mb-6 text-2xl tracking-wide">UNSERE ARBEIT</h2>
       <div className="flex items-center mt-32 w-full justify-between relative">
         <div className="lg:w-[90%] lg:mr-28 z-10">
-            <h3>{workExamples[0].title}</h3>
-            <p className="text-base text-justify text-slate-600 mt-4">{workExamples[0].text}</p>
-            <button className="bg-first py-2 px-6 rounded-xl text-base text-white mt-6 hover:bg-third">Learn More</button>
+            <h3>CREDO</h3>
+            <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. Technik)</p>
+            <NavLink to="/arbeit" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Learn More</NavLink>
         </div>
         <div className="bg-first opacity-25 absolute w-[25%] h-[100%] left-80 hidden lg:block"></div>
-        <img src="https://images.unsplash.com/photo-1594771804886-a933bb2d609b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1764&q=80" className="hidden lg:block lg:w-[50%]"/>
+        <img src="https://bl6pap003files.storage.live.com/y4pskVU9ev37EopffIJUV8LdKmzOv0JB4XrC_X43fv6SPk09D_dtiTGqnkxbiwZymEDvEuLJwbFJGLbDzRkzRTRZNVvVJb1uFIh___5QJQXZWttk4zSdGVRZ-p9AJbOuxKXkKQVaOx8LWI-T4N2_nUtsDwRZqW_bcGn8CB6ts_nVRcPerG7vc_B89O_TCXPimKcwsXZz8_0Aptd-6SVeInDyQI__Js4C6-X3KYHIiwG3DA/IMG-20220615-WA0001.jpg?psid=1&width=1702&height=1276" className="hidden lg:block lg:w-[50%]"/>
       </div>
 
       <div className="flex items-center mt-32 w-full justify-between relative">
-        <img src="https://images.unsplash.com/photo-1622227391560-935dc3494baa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1800&q=80" className="hidden lg:block lg:w-[50%]"/>
+        <img src="https://bl6pap003files.storage.live.com/y4pePncKvvDe5sihusZkZL5P9S7-2l5A6yDj0D-qaJLZjO8YpTXcSYVfDLhKz7x526pjYdpemB0khZZB9cr3vdkDaIVCPCvdHjaBsQqfhOl2CvuOmBO4MDn7a8ZiOUQfRrWI19WFM6yXanzBaCAoSApI6HVA5nZgWRHfEKqJSAvSQfmBzBehrSR0pkqRVrcqlHUdPybZtvAjOLaAazXD5-WHmfBaCgmFquI9JnyZnTRFuU/IMG_5470.JPG?psid=1&width=489&height=367" className="hidden lg:block lg:w-[50%]"/>
         <div className="lg:w-[90%] lg:ml-28 z-10">
-            <h3>{workExamples[0].title}</h3>
-            <p className="text-base text-justify text-slate-600 mt-4">{workExamples[0].text}</p>
-            <button className="bg-first py-2 px-6 rounded-xl text-base text-white mt-6 hover:bg-third">Learn More</button>
+            <h3>TECHNIK</h3>
+            <p className="text-base text-justify text-slate-600 my-4">{workExamples[0].text}</p>
+            <NavLink to="/technik" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Learn More</NavLink>
         </div>
         <div className="bg-first opacity-25 absolute hidden h-[100%] right-80 w-[25%] lg:block"></div>
       </div>
 
-      <p className="text-center mt-20 lg:mt-24 text-sm text-[#45BF41] hover:cursor-pointer hover:text-third">SIEH DIR MEHR ÜBER UNSERE ARBEIT AN  <i className="fa-solid fa-arrow-right-long"></i></p>
+      <NavLink to="/arbeit"><p className="text-center mt-20 lg:mt-24 text-sm text-[#45BF41] hover:cursor-pointer hover:text-third">SIEH DIR MEHR ÜBER UNSERE ARBEIT AN  <i className="fa-solid fa-arrow-right-long"></i></p></NavLink>
     </section>
   )
 }

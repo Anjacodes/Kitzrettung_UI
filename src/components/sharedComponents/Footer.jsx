@@ -1,34 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/Rehkitz_negativ.png'
 
 function Footer() {
   return (
     <footer className="h-[50vh] bg-[#4b8c48] text-white">
-      <div className="mx-[5vw] pt-12 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20">
+      <div className="mx-[5vw] pt-6 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20">
         <div className="flex">
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
-            <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">ÜBER UNS</a>
+            <Link to="/about" className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">ÜBER UNS</Link>
             <ul className='hidden group-hover:block lg:block'>
-              <li><a className="hover:text-first hover:cursor-pointer">Motivation</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Verein</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Arbeit</a></li>
+              <li><NavLink to="/motivation" className="hover:text-first hover:cursor-pointer">Motivation</NavLink></li>
+              <li><NavLink to="/verein" className="hover:text-first hover:cursor-pointer">Verein</NavLink></li>
+              <li><NavLink to="/arbeit" className="hover:text-first hover:cursor-pointer">Arbeit</NavLink></li>
             </ul>
           </div>
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
             <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">LEISTUNGEN</a>
             <ul className='hidden group-hover:block lg:block'>
-              <li><a className="hover:text-first hover:cursor-pointer">Verfahren</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Rechtliches</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Kosten</a></li>
+              <li><NavLink to="/verfahren" className="hover:text-first hover:cursor-pointer">Verfahren</NavLink></li>
+              <li><NavLink to="/rechtliches" className="hover:text-first hover:cursor-pointer">Rechtliches</NavLink></li>
+              <li><NavLink to="/kosten" className="hover:text-first hover:cursor-pointer">Kosten</NavLink></li>
             </ul>
           </div>
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
             <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">WISSENSWERTES</a>
            <ul className='hidden group-hover:block lg:block'>
-              <li><a className="hover:text-first hover:cursor-pointer">Biologie</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Technik</a></li>
-              <li><a className="hover:text-first hover:cursor-pointer">Galerie</a></li>
+              <li><NavLink to="/biologie" className="hover:text-first hover:cursor-pointer">Biologie</NavLink></li>
+              <li><NavLink to="/technik" className="hover:text-first hover:cursor-pointer">Technik</NavLink></li>
+              <li><NavLink to="/galerie" className="hover:text-first hover:cursor-pointer">Galerie</NavLink></li>
            </ul>
           </div>
           <div className="text-sm mr-12">
@@ -37,14 +37,14 @@ function Footer() {
         </div>
         <div className='flex justify-between mt-auto lg:mt-0'>
           <div>
-            <h3>FOLLOW US</h3>
+            <h3 className='text-white'>FOLLOW US</h3>
             <div>
               <i className="fa-brands fa-facebook mr-3"></i>
               <i className="fa-brands fa-instagram"></i>
             </div>
           </div>
           <div className='w-1/2'>
-            <h3 className='mb-1'>WERDE MITGLIED</h3>
+            <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
             <p className='text-sm mb-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div className="flex items-center">
             <input type="email" placeholder="Email" className="text-base py-2 px-2 rounded-l-lg"></input>
