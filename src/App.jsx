@@ -11,6 +11,7 @@ import BiologieMain from './components/Info/Biologie/BiologieMain';
 import TechnikMain from './components/Info/Technik/TechnikMain';
 import GalerieMain from './components/Info/Galerie/GalerieMain';
 import BlogMain from './components/Blog/BlogMain';
+import Navbar from './components/sharedComponents/Navbar';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="App text-3xl">
+      <Navbar menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
       <Routes>
         <Route path="/" element={<Main menuVisible={menuVisible} setMenuVisible={setMenuVisible}/>}/>
         <Route path="arbeit" element={<Work />}/>
