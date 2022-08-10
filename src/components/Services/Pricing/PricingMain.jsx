@@ -1,10 +1,12 @@
 import React from 'react'
-import UnderConstruction from '../../UnderConstruction'
+import GeneralCover from '../../sharedComponents/GeneralCover'
+import PricingContent from './PricingContent'
 
 function PricingMain() {
   return (
     <div>
-      <UnderConstruction />
+      <GeneralCover />
+      <PricingContent />
     </div>
   )
 }

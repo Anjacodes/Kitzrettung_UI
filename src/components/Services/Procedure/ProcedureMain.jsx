@@ -1,10 +1,12 @@
 import React from 'react'
-import UnderConstruction from '../../UnderConstruction'
+import GeneralCover from '../../sharedComponents/GeneralCover'
+import ProcedureContent from './ProcedureContent'
 
 function ProcedureMain() {
   return (
     <div>
-      <UnderConstruction />
+      <GeneralCover />
+      <ProcedureContent />
     </div>
   )
 }

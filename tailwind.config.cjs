@@ -14,7 +14,7 @@ module.exports = {
         'third' : '#4b8c48',
         'fourth' : '#29592d',
         'fifth' : '102613',
-      }
+      },
     },
   },
   plugins: [],

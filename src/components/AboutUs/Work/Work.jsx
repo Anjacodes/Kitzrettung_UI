@@ -1,11 +1,13 @@
 import React from 'react'
-import UnderConstruction from '../../UnderConstruction'
+import Cover from '../../sharedComponents/GeneralCover'
+import Intro from './Intro'
 
 function Work() {
   return (
-    <div>
-      <UnderConstruction />
-    </div>
+    <section>
+      <Cover />
+      <Intro />
+    </section>
   )
 }
 
