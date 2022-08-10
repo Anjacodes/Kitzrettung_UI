@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from '../../sharedComponents/Navbar'
-import Cover from './GeneralCover'
+import Cover from '../../sharedComponents/GeneralCover'
 import Intro from './Intro'
 
 function Work() {
