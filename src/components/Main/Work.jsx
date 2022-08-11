@@ -13,7 +13,7 @@ function Work() {
             <NavLink to="/arbeit" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Learn More</NavLink>
         </div>
         <div className="bg-first opacity-25 absolute w-[25%] h-[100%] left-80 hidden lg:block"></div>
-        <img src="https://bl6pap003files.storage.live.com/y4pskVU9ev37EopffIJUV8LdKmzOv0JB4XrC_X43fv6SPk09D_dtiTGqnkxbiwZymEDvEuLJwbFJGLbDzRkzRTRZNVvVJb1uFIh___5QJQXZWttk4zSdGVRZ-p9AJbOuxKXkKQVaOx8LWI-T4N2_nUtsDwRZqW_bcGn8CB6ts_nVRcPerG7vc_B89O_TCXPimKcwsXZz8_0Aptd-6SVeInDyQI__Js4C6-X3KYHIiwG3DA/IMG-20220615-WA0001.jpg?psid=1&width=1702&height=1276" className="hidden lg:block lg:w-[50%]"/>
+        <img src="https://bl6pap003files.storage.live.com/y4pZ4ifowa6ZTLToJq2UZSKL96gyLSr8ulg6roD3lOtGVPR6UwyXzfy3GfGheWVhvEQWuI0qI6rebDHWsffEGPDMaUOQ05Fl-QQqKGQkI5BhKckVi3HUx9Hsx87xY0zV67vn0mdNADiYX3bQAEAFaMMYmSJP7rKin-j1B-od4UUVaLl_XCLDr8CA2kPI0Tam-DyM4S6Cz9gVF0YzsGEwwwWlZtztKoPCG7GBEpBNLvq5zE/IMG-20220615-WA0001.jpg?psid=1&width=1702&height=1276" className="hidden lg:block lg:w-[50%]"/>
       </div>
 
       <div className="flex items-center mt-32 w-full justify-between relative">
