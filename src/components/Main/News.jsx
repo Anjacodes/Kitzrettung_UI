@@ -3,7 +3,7 @@ import posts from './blogPosts';
 
 function News() {
   return (
-    <section className="mt-28">
+    <section className="mt-28 hidden">
       <h2 className="mb-12 text-2xl text-slate-700 tracking-wide">NEUIGKEITEN</h2>
 
       <div className="lg:grid lg:grid-cols-3 lg:gap-20 w-full md:grid md:grid-cols-2 md:gap-20">

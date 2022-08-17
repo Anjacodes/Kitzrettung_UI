@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/Rehkitz_negativ.png'
+import Form from './Form';
 
 function Footer() {
+
+  self.displayName = "Footer";
+
   return (
     <footer className="h-[50vh] bg-[#4b8c48] text-white">
-      <div className="mx-[5vw] pt-6 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20">
+      <div className="mx-[5vw] pt-6 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20 relative">
         <div className="flex">
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
             <Link to="/about" className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">ÜBER UNS</Link>
@@ -25,14 +29,12 @@ function Footer() {
           </div>
           <div className="text-sm mr-6 lg:mr-12 flex flex-col group">
             <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">WISSENSWERTES</a>
-           <ul className='hidden group-hover:block lg:block'>
+            <ul className='hidden group-hover:block lg:block'>
               <li><NavLink to="/biologie" className="hover:text-first hover:cursor-pointer">Biologie</NavLink></li>
               <li><NavLink to="/technik" className="hover:text-first hover:cursor-pointer">Technik</NavLink></li>
               <li><NavLink to="/galerie" className="hover:text-first hover:cursor-pointer">Galerie</NavLink></li>
-           </ul>
-          </div>
-          <div className="text-sm mr-12">
-            <a className="mb-4 text-base font-avenirHeavy hover:text-first hover:cursor-pointer">SPENDEN</a>
+              <li><NavLink to="/" className="hover:text-first hover:cursor-pointer">Spenden</NavLink></li>
+            </ul>
           </div>
         </div>
         <div className='flex justify-between mt-auto lg:mt-0'>
@@ -46,17 +48,14 @@ function Footer() {
           <div className='w-1/2'>
             <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
             <p className='text-sm mb-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div className="flex items-center">
-            <input type="email" placeholder="Email" className="text-base py-2 px-2 rounded-l-lg"></input>
-            <button className="rounded-r-lg bg-second py-2 px-4 text-white text-base hover:bg-third"><i className="fa-solid fa-arrow-right"></i></button>
-          </div>
+            <Form displayName={displayName}/>
           </div>
         </div>
-        <div className="flex items-center">
-          <Link to="/" className="hover:cursor-pointer mr-4"><img src={logo} className="w-20 lg:w-40"/></Link>
+        <div className="flex items-center absolute top-80 lg:top-48">
+          <Link to="/" className="hover:cursor-pointer mr-4"><img src={logo} className="w-20 lg:w-32"/></Link>
           <div>
             <p className="text-sm hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p className="mt-4 text-sm">2022 Kreis Euskirchen Rehkitzrettung eV</p>
+            <p className="mt-4 lg:mt-0 text-sm hidden lg:block">2022 Kreis Euskirchen Rehkitzrettung eV</p>
           </div>
         </div>
       </div>
