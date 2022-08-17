@@ -47,7 +47,7 @@ function Footer() {
           </div>
           <div className='w-1/2'>
             <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
-            <p className='text-sm mb-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className='text-sm mb-1'>Fordere Informationen zur Mitgliedschaft und deinen Antrag per Email an</p>
             <Form displayName={displayName}/>
           </div>
         </div>
