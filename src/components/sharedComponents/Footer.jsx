@@ -36,7 +36,7 @@ function Footer() {
            </ul>
           </div>
         </div>
-        <div className='flex justify-between mt-auto lg:mt-0'>
+        <div className='flex justify-between mt-0 lg:mt-0'>
           <div>
             <h3 className='text-white'>FOLLOW US</h3>
             <div>
