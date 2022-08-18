@@ -2,10 +2,11 @@
   "name": "kitzrettung-ui",
   "private": true,
   "version": "0.0.0",
-    "type": "module",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "vite --port 5173",
     "preview": "vite preview",
     "lint-js": "eslint --ignore-path .gitignore .",
     "lint-js-fix": "eslint --ignore-path .gitignore . --fix",
@@ -15,9 +16,12 @@
     "fix-linters": "npm run lint-css-fix && npm run lint-js-fix"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^2.0.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.3.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "serve": "^14.0.1",
     "vite": "^3.0.0"
   },
   "devDependencies": {
