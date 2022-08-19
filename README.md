@@ -118,6 +118,11 @@ Give a ⭐️ if you like this project!
 
 Original design [SafeTree](https://www.behance.net/gallery/84999243/SafeTree-Website-Concept?tracking_source=search_projects%7Cenvironment) by [Victoria Berdak](https://www.behance.net/victoriaberdak) on [Behance](https://www.behance.net/)
 
+Photo "Hunter" by <a href="https://unsplash.com/@sebastianpoc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Pociecha</a> on <a href="https://unsplash.com/s/photos/hunt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo "Appalachian Mountains" by <a href="https://unsplash.com/@memory_terra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Diaz</a> on <a href="https://unsplash.com/s/photos/animal-protection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
 <br>
 
 <h2>📝 License</h2>

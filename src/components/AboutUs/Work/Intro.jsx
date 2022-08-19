@@ -1,12 +1,15 @@
 import React from 'react'
+import RehkitzRettung from '../../../assets/RehkitzInRettung.jpg';
+import Rehkitz from '../../../assets/RehkitzImGras.jpg';
+
 
 function Intro() {
   return (
     <div className="mx-20 my-48 lg:mx-52">
       <h2 className="mb-6 text-2xl tracking-wide">UNSERE ARBEIT</h2>
-      <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. Technik). </p>
+      <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. <a href="/technik" className='text-blue-600 hover:underline'>Technik</a>). </p>
       <div className='mt-12 lg:flex'>
-        <img src="https://bl6pap003files.storage.live.com/y4pOSkkwzXgntegbVmxvkkSa-3uEMinCo1ehhyb8i02094aJY2uulu1uLKUc-H4T9OEvvMJNSey76KkQa18boMdGrPyjWhu2vsf_tL6OeJMNsWMYT-J_wNiw8-Q0T_0nkmLd-FydtBibxHhqrzQhEoiQUbXYoiZeg3Q89bhF6SYsZFTMp1Ixv04r7DSsbYtlzsGKm_vl4DR1AXCDkr3IomV4jYB9vIf-RD-4H395Nwzs7k/4f192fb0-d21f-44b4-ad45-8cf4f4da0a72.jpg?psid=1&width=957&height=1276" className='lg:w-1/3'/>
+        <img src={Rehkitz} className='lg:w-1/3'/>
        <div className='lg:ml-12 text-base text-justify text-slate-600 my-4'>
           <p className="mb-6">Dabei werden die zu mähenden Wiesen, möglichst am Morgen des Mähtermins, beflogen. Die Wärmebildkameras detektieren dabei die in den Wiesen liegenden Tiere als Wärmequelle.</p>
 
@@ -24,7 +27,7 @@ function Intro() {
 
         <p>Jeder Einsatz wird protokolliert. Der Landwirt oder der zuständige Jagausübungsberechtigte erhält eine Durchschrift des Protokolls (s. Dokumentation).</p>
         </div>
-        <img src="https://bl6pap003files.storage.live.com/y4p6eAsjwXV2B32C-_LCHTF67e2ZqkVZrSS0ZkH2WoCTIjD5fBv1zYXcL6N7Ee2xRT6bvPKmvlFeB0Yy6F42psuu5pdW985ubWUgL0TY0FAmhjaGo_7xayRkiuNUhQxp3gp_lrmdlfEMKuM70BjilLClglnPoe5PNJh8jOPPX_pmm427igMlShizkHLbIAlPUYXsmTQTZoRj6KqmgSwuH5wxOkUXwoWVus1UOtKNgI1fpI/IMG-20210610-WA0015.jpg?psid=1&width=958&height=1276" className='lg:w-1/3'/>
+        <img src={RehkitzRettung} className='lg:w-1/3'/>
       </div>
     </div>
   )
