@@ -12,6 +12,7 @@ import TechnikMain from './components/Info/Technik/TechnikMain';
 import GalerieMain from './components/Info/Galerie/GalerieMain';
 import BlogMain from './components/Blog/BlogMain';
 import Navbar from './components/sharedComponents/Navbar';
+import Contact from './components/Kontakt/Contact';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="technik" element={<TechnikMain />}/>
         <Route path="galerie" element={<GalerieMain />}/>
         <Route path="blog" element={<BlogMain />}/>
+        <Route path="kontakt" element={<Contact />} />
       </Routes>
     </div>
   )
