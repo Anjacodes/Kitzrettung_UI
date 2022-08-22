@@ -1,6 +1,6 @@
 import React from 'react'
 import RehkitzRettung from '../../../assets/RehkitzInRettung.jpg';
-import Rehkitz from '../../../assets/RehkitzImGras.jpg';
+import Rehkitz from '../../../assets/Rehkitz_Gras.jpg'
 
 
 function Intro() {

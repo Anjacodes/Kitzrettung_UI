@@ -1,5 +1,5 @@
 import React from 'react'
-import Drohne from '../../../assets/DrohneAufTisch.jpg'
+import Drohne from '../../../assets/Drohne_Tisch.jpg'
 
 function ProcedureContent() {
   return (

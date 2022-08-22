@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import workExamples from './workExamples';
 import Credo from '../../assets/BeiSonnenaufgang.jpg';
-import Drohne from '../../assets/Drohnenflug.jpg';
+import Drohnenflug from '../../assets/Drohne_Flug.jpg';
 
 function Work() {
   return (
@@ -19,7 +19,7 @@ function Work() {
       </div>
 
       <div className="flex items-center mt-32 w-full justify-between relative">
-        <img src={Drohne} className="hidden lg:block lg:w-[50%]"/>
+        <img src={Drohnenflug} className="hidden lg:block lg:w-[50%]"/>
         <div className="lg:w-[90%] lg:ml-28 z-10">
             <h3>TECHNIK</h3>
             <p className="text-base text-justify text-slate-600 my-4">{workExamples[0].text}</p>
