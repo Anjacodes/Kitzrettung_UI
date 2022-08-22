@@ -1,6 +1,5 @@
 import React from 'react'
 import RehkitzRettung from '../../../assets/RehkitzInRettung.jpg';
-import Rehkitz from '../../../assets/RehkitzImGras.jpg';
 
 
 function Intro() {
@@ -9,7 +8,7 @@ function Intro() {
       <h2 className="mb-6 text-2xl tracking-wide">UNSERE ARBEIT</h2>
       <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. <a href="/technik" className='text-blue-600 hover:underline'>Technik</a>). </p>
       <div className='mt-12 lg:flex'>
-        <img src={Rehkitz} className='lg:w-1/3'/>
+        <img src={RehkitzRettung} className='lg:w-1/3'/>
        <div className='lg:ml-12 text-base text-justify text-slate-600 my-4'>
           <p className="mb-6">Dabei werden die zu mähenden Wiesen, möglichst am Morgen des Mähtermins, beflogen. Die Wärmebildkameras detektieren dabei die in den Wiesen liegenden Tiere als Wärmequelle.</p>
 
