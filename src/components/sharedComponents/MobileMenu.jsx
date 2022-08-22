@@ -36,7 +36,7 @@ function MobileMenu({visible, setMenuVisible}) {
             <li><NavLink to="/galerie" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Galerie</NavLink></li>
           </ul>
         </li>
-        <li><NavLink to="/blog" className="font-avenirHeavy mb-12 hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>BLOG</NavLink></li>
+        <li><NavLink to="/kontakt" className="font-avenirHeavy mb-12 hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>KONTAKT</NavLink></li>
      </ul>
       <a href="" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48">Spenden</a>
   </div>
