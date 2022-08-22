@@ -7,7 +7,7 @@ function Navbar({menuVisible, setMenuVisible}) {
 
   return (
     <nav className="absolute top-0 text-white w-screen mt-10 flex items-center">
-      <MobileMenu visible={menuVisible}/>
+      <MobileMenu visible={menuVisible} setMenuVisible={setMenuVisible}/>
       <button className="z-20 pl-[10%]" onClick={() => setMenuVisible(!menuVisible)}>
         { menuVisible ? (<i className="fa-solid fa-xmark"></i>) : (<i className="fa-solid fa-bars lg:hidden" ></i>)
         }

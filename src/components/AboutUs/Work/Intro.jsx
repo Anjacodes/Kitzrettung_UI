@@ -10,7 +10,7 @@ function Intro() {
       <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. <a href="/technik" className='text-blue-600 hover:underline'>Technik</a>). </p>
       <div className='mt-12 lg:flex'>
         <img src={Rehkitz} className='lg:w-1/3'/>
-       <div className='lg:ml-12 text-base text-justify text-slate-600 my-4'>
+        <div className='lg:ml-12 text-base text-justify text-slate-600 my-4 lg:w-2/3'>
           <p className="mb-6">Dabei werden die zu mähenden Wiesen, möglichst am Morgen des Mähtermins, beflogen. Die Wärmebildkameras detektieren dabei die in den Wiesen liegenden Tiere als Wärmequelle.</p>
 
           <p className="mb-6">Je nach Gelände und Temperatur sind bis zu 2 ha in 30 Minuten abgeflogen. Die Temperatur spielt hierbei eine besondere Rolle. Je größer die Temperaturdifferenz zwischen Tierkörper und Umgebung, desto einfacher gelingt das Auffinden. Daher ist ein Einsatz dieser Technik in den frühen Morgenstunden zu bevorzugen. Dies ermöglicht zudem eine größere Flughöhe, was eine höhere Hektarleistung ermöglicht.</p>
@@ -19,7 +19,7 @@ function Intro() {
        </div>
       </div>
       <div className='lg:flex mt-12 h-full'>
-        <div className='lg:mr-12 text-base text-justify text-slate-600 my-4 flex flex-col justify-between h-full'>
+        <div className='lg:mr-12 text-base text-justify text-slate-600 my-4 flex flex-col justify-between h-full lg:w-2/3'>
         <p className="mb-6">Im optimalen Fall findet das Mähen direkt im Anschluss an die Rehkitzsuche statt.</p>
         <p className="mb-6">Nach der Mahd werden die gefunden Tier an Ort und Stelle wieder freigelassen. Die Rehkitze und ihre zugehörigen Muttertiere (Ricken) finden durch Ruflaute relativ schnell wieder zueinander. Oft verlässt die Ricke nicht einmal die nähere Umgebung des Geschehens.</p>
 
