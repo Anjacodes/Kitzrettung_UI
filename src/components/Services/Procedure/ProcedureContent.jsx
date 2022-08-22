@@ -1,5 +1,5 @@
 import React from 'react'
-import Drohne from '../../../assets/DrohneAufTisch.jpg'
+import DrohneAufTisch from '../../../assets/DrohneAufTisch.jpg'
 
 function ProcedureContent() {
   return (
@@ -7,7 +7,7 @@ function ProcedureContent() {
     <h2 className="mb-6 text-2xl tracking-wide">UNSER VERFAHREN</h2>
     <p className="text-base text-justify text-slate-600 my-4">Der Erfolg der Wildtierrettung mit unserem Verfahren hängt von einem hohen Maß an zielgerichteter Organisation und dem Mitwirken aller Betroffenen ab.</p>
     <div className='mt-12 lg:flex'>
-      <img src={Drohne} className='lg:w-1/3'/>
+      <img src={DrohneAufTisch} className='lg:w-1/3'/>
      <div className='lg:ml-12 text-base text-justify text-slate-600 my-4'>
         <p className="mb-6">Auch wenn aufgrund des Wetters Vorlaufzeiten bis zum Mähtermin oft sehr kurz sind, ist ein Abruf unserer Leistungen spätestens bis 18:00 Uhr am Vorabend erforderlich, um die Teams noch rechtzeitig zusammenstellen zu können.</p>
 
