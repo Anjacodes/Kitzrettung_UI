@@ -4,7 +4,6 @@ import logo from '../../assets/Rehkitz_negativ.png'
 import Form from './Form';
 
 function Footer() {
-  self.displayName = "Footer";
 
   return (
     <footer className="h-[50vh] bg-[#4b8c48] text-white">
@@ -47,8 +46,7 @@ function Footer() {
           <div className='w-1/2'>
             <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
             <p className='text-sm mb-1'>Fordere Informationen zur Mitgliedschaft und deinen Antrag per Email an.</p>
-            <Form displayName={displayName}/>
-           
+            <Form />
           </div>
         </div>
         <div className="flex items-center absolute top-80 lg:top-48">

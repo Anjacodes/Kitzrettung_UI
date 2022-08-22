@@ -12,7 +12,7 @@ function Work() {
         <div className="lg:w-[90%] lg:mr-28 z-10">
             <h3>CREDO</h3>
             <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (siehe <a href="/technik" className='text-blue-600 hover:underline'>Technik</a>)</p>
-            <NavLink to="/arbeit" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Learn More</NavLink>
+            <NavLink to="/arbeit" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Mehr erfahren</NavLink>
         </div>
         <div className="bg-first opacity-25 absolute w-[25%] h-[100%] left-80 hidden lg:block"></div>
         <img src={Credo} className="hidden lg:block lg:w-[50%]"/>
@@ -23,7 +23,7 @@ function Work() {
         <div className="lg:w-[90%] lg:ml-28 z-10">
             <h3>TECHNIK</h3>
             <p className="text-base text-justify text-slate-600 my-4">{workExamples[0].text}</p>
-            <NavLink to="/technik" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Learn More</NavLink>
+            <NavLink to="/technik" className="bg-first py-2 px-6 rounded-xl text-base text-white hover:bg-third">Mehr erfahren</NavLink>
         </div>
         <div className="bg-first opacity-25 absolute hidden h-[100%] right-80 w-[25%] lg:block"></div>
       </div>
