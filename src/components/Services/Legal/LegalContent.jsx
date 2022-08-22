@@ -8,7 +8,7 @@ function LegalContent() {
       <h2 className="mb-6 text-2xl tracking-wide">RECHTLICHES</h2>
       <div className='mt-12 lg:flex'>
         <img src={Field} className='lg:w-1/3'/>
-       <div className='lg:ml-12 text-base text-justify text-slate-600 my-4'>
+        <div className='lg:ml-12 text-base text-justify text-slate-600 my-4 lg:w-2/3'>
           <h3>1. Verantwortung für Schäden durch den Einsatz landwirtschaftlicher Maschinen</h3>
           <p className="mb-6">Grundsätzlich gilt auch beim Einsatz landwirtschaftlicher Maschinen das Verursacherprinzip. Daher ist der Landwirt bzw. der Maschinenführer auch für die Schäden nach § 1 Tierschutzgesetz verantwortlich. Dieser Paragraf bestimmt, dass niemand ohne vernünftigen Grund, Tieren Leiden und Schmerzen zufügen darf. Durch mehrere Gerichtsurteile klargestellt ist, dass das Mähen von Wiesen ohne vorherige Schutzvorkehrungen keinen vernünftigen Grund darstellt Tiere zu töten oder zu verletzen. Nach der Rechtsprechung hat der Landwirt alle möglichen und zumutbaren Maßnahmen zu ergreifen, um das Verletzen oder Töten von Tieren durch den Mähvorgang zu vermeiden.</p>
 
@@ -17,7 +17,7 @@ function LegalContent() {
        </div>
       </div>
       <div className='lg:flex mt-12 h-full'>
-        <div className='lg:mr-12 text-base text-justify text-slate-600 my-4 flex flex-col justify-between h-full'>
+        <div className='lg:mr-12 text-base text-justify text-slate-600 my-4 flex flex-col justify-between h-full lg:w-2/3'>
         <h3>2. Rehkitzrettung als Wilderei</h3>
         <p className="mb-6">Da das Finden von Wild mittels Drohnen und das anschließende Aufsuchen und Bergen von z. B. Rehkitzen auch zum Nachstellen von Wild gehört, erfüllt dies, sofern fremdes Jagdrecht verletzt wird, den Tatbestand der Jagdwilderei nach § 292 Strafgesetzbuch.</p>
         <p className="mb-6">Es ist daher für den Einsatz unserer Teams unabdingbar, dass für jede Mission die Zustimmung des zuständigen Jagdausübungsberechtigten vorliegt. Dies muss durch den jeweiligen Anforderer unserer Leistungen, sofern er nicht selbst der zuständige Jagdausübungsberechtigte ist, sichergestellt sein.</p>

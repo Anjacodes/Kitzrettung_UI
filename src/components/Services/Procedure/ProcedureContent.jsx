@@ -8,7 +8,7 @@ function ProcedureContent() {
     <p className="text-base text-justify text-slate-600 my-4">Der Erfolg der Wildtierrettung mit unserem Verfahren hängt von einem hohen Maß an zielgerichteter Organisation und dem Mitwirken aller Betroffenen ab.</p>
     <div className='mt-12 lg:flex'>
       <img src={Drohne} className='lg:w-1/3'/>
-     <div className='lg:ml-12 text-base text-justify text-slate-600 my-4'>
+      <div className='lg:ml-12 text-base text-justify text-slate-600 my-4 lg:w-2/3'>
         <p className="mb-6">Auch wenn aufgrund des Wetters Vorlaufzeiten bis zum Mähtermin oft sehr kurz sind, ist ein Abruf unserer Leistungen spätestens bis 18:00 Uhr am Vorabend erforderlich, um die Teams noch rechtzeitig zusammenstellen zu können.</p>
 
         <p className="mb-6">Auch weit im Vorfeld können bereits Absprachen getroffen werden, was uns die Planung in jedem Fall erleichtert.</p>
