@@ -45,7 +45,7 @@ function Navbar({menuVisible, setMenuVisible}) {
           <NavLink to="/blog" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider hidden'>BLOG</NavLink>
         </li>
       </ul>
-      <a href="" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-[#4b8c48]">Spenden</a>
+      <a href="" target="_blank" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-[#4b8c48]">Spenden</a>
     </nav>
   )
 }
