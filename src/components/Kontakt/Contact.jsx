@@ -1,10 +1,12 @@
 import React from 'react'
-import UnderConstruction from '../UnderConstruction'
+import GeneralCover from '../sharedComponents/GeneralCover'
+import ContactForm from './ContactForm'
 
 function Contact() {
   return (
-    <div className='h-screen'>
-      <UnderConstruction />
+    <div >
+      <GeneralCover />
+      <ContactForm />
     </div>
   )
 }
