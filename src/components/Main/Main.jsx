@@ -5,7 +5,7 @@ import Cover from './Cover'
 function Main({menuVisible, setMenuVisible}) {
   return (
     <main>
-      <Cover menuVisible={menuVisible} setMenuVisible={setMenuVisible}/>
+      <Cover menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
       <Content />
     </main>
   )

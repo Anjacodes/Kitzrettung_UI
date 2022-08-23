@@ -44,3 +44,7 @@ ul {
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  overflow-x: none;
+}

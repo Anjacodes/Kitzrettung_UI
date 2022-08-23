@@ -1,5 +1,4 @@
-import React, {useState} from 'react'
-import Navbar from '../sharedComponents/Navbar'
+import React from 'react'
 import Stats from './Stats'
 
 function Cover({menuVisible}) {
@@ -11,7 +10,7 @@ function Cover({menuVisible}) {
          <h1 className="text-white font-bold text-4xl lg:text-8xl tracking-wider">REHKITZRETTUNG</h1>
          <p className="text-white text-xl self-end">eV</p>
       </div>
-      <Stats menuVisible={menuVisible} />
+      <Stats menuVisible={menuVisible}/>
     </header>
   )
 }
