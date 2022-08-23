@@ -1,11 +1,13 @@
 import React from 'react'
-import UnderConstruction from '../../UnderConstruction'
+import GeneralCover from '../../sharedComponents/GeneralCover'
+import AssociationContent from './AssociationContent'
 
 function AssociationMain() {
   return (
-    <div>
-      <UnderConstruction />
-    </div>
+    <section>
+      <GeneralCover />
+      <AssociationContent />
+    </section>
   )
 }
 

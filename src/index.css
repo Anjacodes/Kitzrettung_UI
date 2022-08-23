@@ -38,9 +38,13 @@ h3 {
 p,
 li,
 ul {
-  font-family: "Helvetica", sans-serif;
+  font-family: "AvenirLight", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
 }

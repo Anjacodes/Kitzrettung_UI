@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Main from './components/Main/Main';
 import Work from './components/AboutUs/Work/Work';
@@ -14,7 +14,7 @@ import BlogMain from './components/Blog/BlogMain';
 import Navbar from './components/sharedComponents/Navbar';
 import Contact from './components/Kontakt/Contact';
 
-function App() {
+const App = () => {
 
   const [menuVisible, setMenuVisible] = useState(false);
 
@@ -22,7 +22,7 @@ function App() {
     <div className="App text-3xl">
       <Navbar menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
       <Routes>
-        <Route path="/" element={<Main menuVisible={menuVisible} setMenuVisible={setMenuVisible}/>}/>
+        <Route path="/" element={<Main menuVisible={menuVisible} setMenuVisible={setMenuVisible} />}/>
         <Route path="arbeit" element={<Work />}/>
         <Route path="verein" element={<AssociationMain />} />
         <Route path="motivation" element={<MotivationMain />}/>
