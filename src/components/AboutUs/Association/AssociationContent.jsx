@@ -1,6 +1,6 @@
 import React from 'react'
 import Arbeit from '../../../assets/arbeit.jpg'
-import vorstandsmitglieder from './Vorstandsmitglieder'
+import vorstandsmitglieder from './vorstandsmitglieder'
 import satzung from '../../../assets/Vereinssatzung-Rehkitz.pdf'
 
 function AssociationContent() {
