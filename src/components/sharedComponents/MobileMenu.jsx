@@ -38,7 +38,7 @@ function MobileMenu({visible, setMenuVisible}) {
         </li>
         <li><NavLink to="/kontakt" className="font-avenirHeavy mb-12 hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>KONTAKT</NavLink></li>
      </ul>
-      <a href="" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48">Spenden</a>
+      <a href="https://www.paypal.com/donate/?hosted_button_id=72SBW8E9S9MCN" target="_blank" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48">Spenden</a>
   </div>
   )}
 }
