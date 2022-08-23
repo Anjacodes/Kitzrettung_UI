@@ -1,11 +1,13 @@
 import React from 'react'
-import UnderConstruction from '../../UnderConstruction'
+import GeneralCover from '../../sharedComponents/GeneralCover'
+import TechnikContent from './TechnikContent'
 
 function TechnikMain() {
   return (
-    <div>
-      <UnderConstruction />
-    </div>
+    <section>
+      <GeneralCover />
+      <TechnikContent />
+    </section>
   )
 }
 
