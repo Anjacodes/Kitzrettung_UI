@@ -6,7 +6,13 @@ import Form from './Form';
 function Footer() {
 
   return (
-    <footer className="h-[50vh] bg-[#4b8c48] text-white">
+    <footer className="h-[50vh] bg-[#4b8c48] text-white relative">
+        <a href="https://wa.me/4915174254953"
+        className="whatsapp_float absolute right-[15%] lg:right-[7%] -top-14 lg:-top-20"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><i className="text-second hover:text-third scale-[4.0] lg:scale-[6.0] fa fa-whatsapp whatsapp-icon"></i>
+      </a>
       <div className="mx-[5vw] pt-6 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20 relative">
         <div className="flex justify-between">
           <div className="text-sm mr-4 lg:mr-12 flex flex-col group">
