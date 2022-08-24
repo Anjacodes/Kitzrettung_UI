@@ -1,5 +1,4 @@
 import React from 'react'
-import Arbeit from '../../../assets/arbeit.jpg'
 import vorstandsmitglieder from './vorstandsmitglieder'
 import satzung from '../../../assets/Vereinssatzung-Rehkitz.pdf'
 
@@ -14,25 +13,25 @@ function AssociationContent() {
 
       <p className="mb-10">Um die Idee der Rehkitzrettung mit Wärmebilddrohnen weiter zu verbreiten und um insbesondere die Anschaffung weiterer Drohnen finanzieren zu können (eine gut geeignete Drohne kostet derzeit rund 6.500 Euro), haben wir diesen Verein gegründet. Wir hoffen darauf, so eine Vielzahl weiterer Tiere vor dem Tod durch landwirtschaftliche Maschinen retten zu können.</p>
 
-      <a href={satzung} target="_blank" rel="noreferrer" className='bg-first hidden py-2 px-3 lg:px-6 rounded-xl text-base text-white hover:bg-third '>Vereinssatzung ansehen</a>
+      <a href={satzung} target="_blank" rel="noreferrer" className='bg-first py-2 px-3 lg:px-6 rounded-xl text-base text-white hover:bg-third '>Vereinssatzung ansehen</a>
 
 
       <div className='mt-40'>
 
         <h3 className='mb-12 text-2xl tracking-wide'>VORSTAND</h3>
 
-        {vorstandsmitglieder.map(mitglied => {
+        {vorstandsmitglieder.map((mitglied, i) => {
           return (
-            <ul className='text-justify text-base mb-10 rounded-lg border border-solid bg-slate-100 p-4 lg:p-10'>
-              <li className='text-xl font-avenirHeavy tracking-wide text-slate-700 mb-2'>{mitglied.funktion.toUpperCase()}</li>
-              <li className='font-avenirLight'><a>{mitglied.name}</a></li>
-              <li className='font-avenirLight'>{mitglied.email}</li>
-              <li className='mt-10'><h4 className='text-lg font-avenirHeavy mb-2 text-slate-600'>Aufgaben:</h4></li>
-              {mitglied.aufgaben.map(aufgabe => {
+            <ul key={`${i}`}  className='text-justify text-base mb-10 rounded-lg border border-solid bg-slate-100 p-4 lg:p-10'>
+              <li key={`a${i}`}   className='text-xl font-avenirHeavy tracking-wide text-slate-700 mb-2'>{mitglied.funktion.toUpperCase()}</li>
+              <li key={`b${i}`} className='font-avenirLight'><a>{mitglied.name}</a></li>
+              <li key={`c${i}`}   className='font-avenirLight'><a className="text-blue-600 hover:underline" href={`mailto:${mitglied.email}`}>{mitglied.email}</a></li>
+              <li key={`d${i}`}  className='mt-10'><h4 className='text-lg font-avenirHeavy mb-2 text-slate-600'>Aufgaben:</h4></li>
+              {mitglied.aufgaben.map((aufgabe, i) => {
                 return (
-                  <ul className='mb-3 lg:flex'>
-                    <li className='lg:w-1/5 font-avenirHeavy text-slate-600'>{aufgabe.titel}:</li>
-                    <li className='lg:w-4/5 font-avenirLight'>{aufgabe.inhalt}</li>
+                  <ul key={`${i}${i}`} className='mb-3 lg:flex'>
+                    <li key={`a${i}${i}`} className='lg:w-1/5 font-avenirHeavy text-slate-600'>{aufgabe.titel}:</li>
+                    <li key={`b${i}${i}`}   className='lg:w-4/5 font-avenirLight'>{aufgabe.inhalt}</li>
                   </ul>
                 )
               })}
