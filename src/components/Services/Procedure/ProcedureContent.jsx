@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Drohne from '../../../assets/Drohne_Tisch.jpg'
 
 function ProcedureContent() {
@@ -17,7 +18,7 @@ function ProcedureContent() {
 
         <p className="mb-6">Es sind in jedem Fall die Anzahl der Flächen mit ungefährer Größe der jeweiligen Fläche mitzuteilen, sowie ein Treffpunkt mit einem Verantwortlichen des Anfordernden zu vereinbaren. Achtung: Beginn der Missionen ist, je nach Auftragsaufkommen, ca. 05:00 Uhr morgens.</p>
 
-        <p className="mb-6">WICHTIG: Sofern Landwirte unsere Leistungen abrufen, ist ausnahmslos die Zustimmung des zuständigen Jagdausübungsberechtigten erforderlich (siehe <a href="/rechtliches" className='text-blue-600 hover:underline'>Rechtliches</a>).</p>
+        <p className="mb-6">WICHTIG: Sofern Landwirte unsere Leistungen abrufen, ist ausnahmslos die Zustimmung des zuständigen Jagdausübungsberechtigten erforderlich (siehe <NavLink to="/rechtliches" className='text-blue-600 hover:underline'>Rechtliches</NavLink>).</p>
 
         <p>Im optimalen Fall begleitet er die Mission.</p>
      </div>
