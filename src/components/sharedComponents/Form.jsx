@@ -9,7 +9,7 @@ function Form() {
   }
 
   return (
-    <form className="text-center flex flex-col text-base align-center lg:mb-4" action="https://formspree.io/f/xknenklz" method="POST">
+    <form className="text-black text-center flex flex-col text-base align-center lg:mb-4" action="https://formspree.io/f/xknenklz" method="POST">
       <input type="text" name="name" placeholder="Name" className="rounded-lg py-2 px-5 mb-2" required />
       <input type="email" name="email" placeholder="Email" className="py-2 px-5 lg:mb-0 rounded-lg" required />
       <div className="g-recaptcha" data-sitekey="6LfZmX0hAAAAAPRqwlBGUIlqKnDJ9KSL-JS5xxa5"></div>

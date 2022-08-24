@@ -1,13 +1,14 @@
 import React from 'react'
 import RehkitzRettung from '../../../assets/RehkitzInRettung.jpg';
 import Rehkitz from '../../../assets/Rehkitz_Gras.jpg'
+import Satzung from '../../../assets/Vereinssatzung-Rehkitz.pdf'
 
 
 function Intro() {
   return (
     <div className="mx-20 my-48 lg:mx-52">
       <h2 className="mb-6 text-2xl tracking-wide">UNSERE ARBEIT</h2>
-      <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe Satzung). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. <a href="/technik" className='text-blue-600 hover:underline'>Technik</a>). </p>
+      <p className="text-base text-justify text-slate-600 my-4">Unser eingetragener Verein hat es sich gemäß seiner Satzung zur Aufgabe gemacht das Tierleid, das durch den Einsatz landwirtschaftlicher Maschinen entsteht, möglichst zu verhindern (siehe <a href={Satzung} className="text-blue-600 hover:underline" target="_blank" rel="noreferrer">Satzung</a>). Wir setzen dabei auf den Einsatz von Drohnen mit hochauflösender Wärmebildtechnik (s. <a href="/technik" className='text-blue-600 hover:underline'>Technik</a>). </p>
       <div className='mt-12 lg:flex'>
         <img src={Rehkitz} className='lg:w-1/3'/>
         <div className='lg:ml-12 text-base text-justify text-slate-600 my-4 lg:w-2/3'>
@@ -25,7 +26,7 @@ function Intro() {
 
        <p className="mb-6"> Ein Team besteht in der Regel aus vier Personen, einem Drohnenpiloten, einem Beobachter, gleichzeitig Einweiser sowie zwei Helfern, die mit dem Bergen der Tiere die wesentliche Aufgabe übernehmen. In einzelnen Fällen, besonders bei großen Flächen oder unübersichtlichem Gelände ist ein zweites Helferteam erforderlich.</p>
 
-        <p>Jeder Einsatz wird protokolliert. Der Landwirt oder der zuständige Jagausübungsberechtigte erhält eine Durchschrift des Protokolls (s. Dokumentation).</p>
+        <p>Jeder Einsatz wird protokolliert. Der Landwirt oder der zuständige Jagausübungsberechtigte erhält eine Durchschrift des Protokolls</p>
         </div>
         <img src={RehkitzRettung} className='lg:w-1/3'/>
       </div>

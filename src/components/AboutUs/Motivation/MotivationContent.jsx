@@ -15,7 +15,7 @@ function MotivationContent() {
 
           <p className="mb-6">Neben dem so entstehenden Leid, das schon aus Tierschutzgründen vermieden werden muss, verursachen die Reste der getöteten Tiere eine Verunreinigung des Mähgutes (Heu oder Silage). Dadurch entsteht das sogenannte Gift „Botulinumtoxin“. Dieses führt bei Rindern, Pferden und Schafen, die das verunreinigte Mähgut fressen, zu Vergiftungserscheinungen bis hin zum Tod. So dass hier weiteres Tierleid entsteht.</p>
 
-          <p>Verantwortliche für den Einsatz der Maschinen und den daraus resultierenden Schäden, auch im Sinne des Tierschutzgesetzes sind rechtlich allein die Landwirte, gegebenenfalls in Verbindung mit dem zuständigen Jagdausübungsberechtigten (siehe Rechtliches).</p>
+          <p>Verantwortliche für den Einsatz der Maschinen und den daraus resultierenden Schäden, auch im Sinne des Tierschutzgesetzes sind rechtlich allein die Landwirte, gegebenenfalls in Verbindung mit dem zuständigen Jagdausübungsberechtigten (siehe <a href="/rechtliches" className='text-blue-600 hover:underline'>Rechtliches</a>).</p>
        </div>
       </div>
       <div className='lg:flex mt-12 h-full'>
