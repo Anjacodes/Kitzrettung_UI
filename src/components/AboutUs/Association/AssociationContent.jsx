@@ -1,13 +1,14 @@
 import React from 'react'
 import vorstandsmitglieder from './vorstandsmitglieder'
 import satzung from '../../../assets/Vereinssatzung-Rehkitz.pdf'
+import zahlen from '../../sharedComponents/zahlen'
 
 function AssociationContent() {
 
   return (
     <div className="mx-20 my-48 lg:mx-52 text-base text-justify text-slate-600">
       <h2 className="mb-6 text-2xl tracking-wide">UNSER VEREIN</h2>
-      <p className="my-4">In den letzten zwei Jahren wurde die Rehkitzrettung durch privates Engagement verschiedener Mitglieder des jetzigen Vereins im Raum Bad Münstereifel und Euskirchen durchgeführt. Dabei wurden für die Beschaffung und den Betrieb einer Wärmebilddrohne nur private finanzielle Mittel genutzt und in 15 Missionen über 25 Rehkitze gerettet.</p>
+      <p className="my-4">In den letzten zwei Jahren wurde die Rehkitzrettung durch privates Engagement verschiedener Mitglieder des jetzigen Vereins im Raum Bad Münstereifel und Euskirchen durchgeführt. Dabei wurden für die Beschaffung und den Betrieb einer Wärmebilddrohne nur private finanzielle Mittel genutzt und in {zahlen.missionen} Missionen über {zahlen.gerettet} Rehkitze gerettet.</p>
 
       <p className="mb-6">Leider mussten auch viele Anfragen aufgrund der limitiert verfügbaren Technik (es stand nur eine Drohne zur Verfügung) zurückgewiesen werden. Wir gehen daher davon aus, dass weitere Kitze hätten gerettet werden können.</p>
 

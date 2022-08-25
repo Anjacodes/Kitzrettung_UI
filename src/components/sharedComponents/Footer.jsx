@@ -13,7 +13,7 @@ function Footer() {
         rel="noopener noreferrer"
       ><i className="text-second hover:text-third scale-[4.0] lg:scale-[6.0] fa fa-whatsapp whatsapp-icon"></i>
       </a>
-      <div className="mx-[5vw] pt-6 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20 relative">
+      <div className="mx-[5vw] pt-6 pb-4 flex flex-col h-full justify-between lg:grid lg:grid-cols-2 lg:gap-20 relative">
         <div className="flex justify-between">
           <div className="text-sm mr-4 lg:mr-12 flex flex-col group">
             <a className="mb-2 lg:mb-4 text-sm lg:text-base font-avenirHeavy hover:cursor-pointer">ÜBER UNS</a>
@@ -48,6 +48,7 @@ function Footer() {
               <i className="fa-brands fa-facebook mr-3"></i>
               <i className="fa-brands fa-instagram"></i>
             </div>
+            <h3 className='mt-6 text-white text-sm lg:hidden'>Rehkitzrettung Euskirchen e.V.</h3>
           </div>
           <div className='w-1/2 mb-6'>
             <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
@@ -55,11 +56,11 @@ function Footer() {
             <Form />
           </div>
         </div>
-        <div className="flex items-center absolute top-[15rem] lg:top-48">
+        <div className="hidden lg:flex items-center absolute top-[15rem] lg:top-48">
           <Link to="/" className="hover:cursor-pointer mr-4"><img src={logo} className="w-20 lg:w-36"/></Link>
           <div>
             <p className="text-sm hidden lg:block">Zur Rettung von Wildtieren vor Verletzungen oder Tötung durch Landmaschinen.</p>
-            <p className="hidden lg:block mt-4 lg:mt-0 text-sm">2022 Kreis Euskirchen Rehkitzrettung eV</p>
+            <p className="hidden lg:block mt-4 lg:mt-0 text-sm">2022 Kreis Euskirchen Rehkitzrettung e.V.</p>
           </div>
         </div>
       </div>
