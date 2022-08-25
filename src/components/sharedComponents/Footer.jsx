@@ -44,11 +44,11 @@ function Footer() {
         <div className='flex justify-between mt-0 lg:mt-0'>
           <div>
             <h3 className='text-white'>FOLLOW US</h3>
-            <div>
+            <div className='mb-6'>
               <i className="fa-brands fa-facebook mr-3"></i>
               <i className="fa-brands fa-instagram"></i>
             </div>
-            <h3 className='mt-6 text-white text-sm lg:hidden'>Rehkitzrettung Euskirchen e.V.</h3>
+            <NavLink to="/" className=' text-white text-sm lg:hidden hover:cursor-pointer hover:text-first'>Rehkitzrettung Kreis Euskirchen e.V.</NavLink>
           </div>
           <div className='w-1/2 mb-6'>
             <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
