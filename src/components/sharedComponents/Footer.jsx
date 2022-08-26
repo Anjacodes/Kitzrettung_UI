@@ -37,7 +37,7 @@ function Footer() {
               <li><NavLink to="/biologie" className="hover:text-first hover:cursor-pointer">Biologie</NavLink></li>
               <li><NavLink to="/technik" className="hover:text-first hover:cursor-pointer">Technik</NavLink></li>
               <li><NavLink to="/galerie" className="hover:text-first hover:cursor-pointer">Galerie</NavLink></li>
-              <li><NavLink to="/" className=" hover:text-first hover:cursor-pointer">Spenden</NavLink></li>
+              <li><a href="https://www.paypal.com/donate/?hosted_button_id=72SBW8E9S9MCN" target="_blank" rel="noreferrer" className=" hover:text-first hover:cursor-pointer">Spenden</a></li>
            </ul>
           </div>
         </div>
