@@ -44,11 +44,11 @@ function Footer() {
         <div className='flex justify-between mt-0 lg:mt-0'>
           <div>
             <h3 className='text-white'>FOLLOW US</h3>
-            <div>
+            <div className='mb-6'>
               <i className="fa-brands fa-facebook mr-3"></i>
               <i className="fa-brands fa-instagram"></i>
             </div>
-            <h3 className='mt-6 text-white text-sm lg:hidden'>Rehkitzrettung Euskirchen e.V.</h3>
+            <a href="/" className='text-white text-sm lg:hidden hover:cursor-pointer hover:underline'>Rehkitzrettung Kreis Euskirchen e.V.</a>
           </div>
           <div className='w-1/2 mb-6'>
             <h3 className='mb-1 text-white'>WERDE MITGLIED</h3>
@@ -60,7 +60,7 @@ function Footer() {
           <Link to="/" className="hover:cursor-pointer mr-4"><img src={logo} className="w-20 lg:w-36"/></Link>
           <div>
             <p className="text-sm hidden lg:block">Zur Rettung von Wildtieren vor Verletzungen oder Tötung durch Landmaschinen.</p>
-            <p className="hidden lg:block mt-4 lg:mt-0 text-sm">2022 Kreis Euskirchen Rehkitzrettung e.V.</p>
+            <p className="hidden lg:block mt-4 lg:mt-0 text-sm">2022 Rehkitzrettung Kreis Euskirchen e.V.</p>
           </div>
         </div>
       </div>
