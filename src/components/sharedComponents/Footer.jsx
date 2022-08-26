@@ -60,7 +60,7 @@ function Footer() {
           <Link to="/" className="hover:cursor-pointer mr-4"><img src={logo} className="w-20 lg:w-36"/></Link>
           <div>
             <p className="text-sm hidden lg:block">Zur Rettung von Wildtieren vor Verletzungen oder Tötung durch Landmaschinen.</p>
-            <p className="hidden lg:block mt-4 lg:mt-0 text-sm">2022 Kreis Euskirchen Rehkitzrettung e.V.</p>
+            <p className="hidden lg:block mt-4 lg:mt-0 text-sm">2022 Rehkitzrettung Kreis Euskirchen e.V.</p>
           </div>
         </div>
       </div>
