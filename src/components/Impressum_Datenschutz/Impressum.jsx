@@ -1,5 +1,6 @@
 import React from 'react'
 import GeneralCover from '../sharedComponents/GeneralCover';
+import satzung from '../../assets/Vereinssatzung-Rehkitz.pdf'
 
 function Impressum() {
   return (
@@ -34,7 +35,7 @@ function Impressum() {
        <ul className='mb-6'>
          <li>Urhebungsrechte und Copyright der veröffentlichten Bilder und Videos liegen beim Verein Rehkitzrettung Kreis Euskirchen e.V.</li>
 
-         <li className='mt-3'>Unsere Satzung finden Sie hier (Link)</li>
+         <li className='mt-3'>Unsere Satzung finden Sie <a href={satzung} target="_blank" rel="noreferrer" className='text-blue-600 hover:underline'>hier</a></li>
        </ul>
 
         <h3 className='mb-3'>Rechtlicher Hinweis:</h3>
