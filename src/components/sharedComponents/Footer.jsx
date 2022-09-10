@@ -21,6 +21,7 @@ function Footer() {
               <li><NavLink to="/motivation" className="hover:text-first hover:cursor-pointer">Motivation</NavLink></li>
               <li><NavLink to="/verein" className="hover:text-first hover:cursor-pointer">Verein</NavLink></li>
               <li><NavLink to="/arbeit" className="hover:text-first hover:cursor-pointer">Arbeit</NavLink></li>
+              <li><NavLink to="/impressum" className="hover:text-first hover:cursor-pointer">Impressum</NavLink></li>
             </ul>
           </div>
           <div className="text-sm mr-4 lg:mr-12 flex flex-col group">
@@ -38,6 +39,7 @@ function Footer() {
               <li><NavLink to="/technik" className="hover:text-first hover:cursor-pointer">Technik</NavLink></li>
               <li><NavLink to="/galerie" className="hover:text-first hover:cursor-pointer">Galerie</NavLink></li>
               <li><a href="https://www.paypal.com/donate/?hosted_button_id=72SBW8E9S9MCN" target="_blank" rel="noreferrer" className=" hover:text-first hover:cursor-pointer">Spenden</a></li>
+              <li><NavLink to="/datenschutz" className="hover:text-first hover:cursor-pointer">Datenschutz</NavLink></li>
            </ul>
           </div>
         </div>

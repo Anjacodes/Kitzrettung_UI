@@ -13,6 +13,8 @@ import GalerieMain from './components/Info/Galerie/GalerieMain';
 import BlogMain from './components/Blog/BlogMain';
 import Navbar from './components/sharedComponents/Navbar';
 import Contact from './components/Kontakt/Contact';
+import Impressum from './components/Impressum_Datenschutz/Impressum';
+import Datenschutz from './components/Impressum_Datenschutz/Datenschutz';
 
 const App = () => {
 
@@ -34,6 +36,8 @@ const App = () => {
         <Route path="galerie" element={<GalerieMain />}/>
         <Route path="blog" element={<BlogMain />}/>
         <Route path="kontakt" element={<Contact />} />
+        <Route path="impressum" element={<Impressum />}/>
+        <Route path="datenschutz" element={<Datenschutz />}/>
       </Routes>
     </div>
   )
