@@ -1,10 +1,12 @@
 import React from 'react'
-import UnderConstruction from '../../UnderConstruction'
+import GeneralCover from '../../sharedComponents/GeneralCover'
+import BiologieContent from './BiologieContent'
 
 function BiologieMain() {
   return (
     <div>
-      <UnderConstruction />
+      <GeneralCover />
+      <BiologieContent />
     </div>
   )
 }
