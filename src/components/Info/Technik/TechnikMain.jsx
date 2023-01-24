@@ -1,12 +1,13 @@
 import React from 'react'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
 import GeneralCover from '../../sharedComponents/GeneralCover'
-import TechnikContent from './TechnikContent'
+import TechnikObject from './TechnikObject'
 
 function TechnikMain() {
   return (
     <section>
       <GeneralCover />
-      <TechnikContent />
+      <ContentTemplate object={TechnikObject}/>
     </section>
   )
 }

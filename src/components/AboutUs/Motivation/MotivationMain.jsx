@@ -1,14 +1,15 @@
 import React from 'react'
-import Navbar from '../../sharedComponents/Navbar'
-import UnderConstruction from '../../UnderConstruction'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
 import GeneralCover from '../../sharedComponents/GeneralCover'
 import MotivationContent from './MotivationContent'
+import MotivationObject from './MotivationObject'
 
 function MotivationMain() {
   return (
     <div>
       <GeneralCover />
-      <MotivationContent />
+      <ContentTemplate object={MotivationObject}/>
+      {/* <MotivationContent /> */}
     </div>
   )
 }
