@@ -1,12 +1,14 @@
 import React from 'react'
 import GeneralCover from '../../sharedComponents/GeneralCover'
-import ProcedureContent from './ProcedureContent'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
+import ProcedureObject from './ProcedureObject'
+
 
 function ProcedureMain() {
   return (
     <div>
       <GeneralCover />
-      <ProcedureContent />
+      <ContentTemplate object={ProcedureObject}/>
     </div>
   )
 }

@@ -5,7 +5,6 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import Footer from './components/sharedComponents/Footer'
 import ScrollToTop from './components/sharedComponents/scrollToTop';
-import Navbar from './components/sharedComponents/Navbar'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

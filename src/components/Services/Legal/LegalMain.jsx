@@ -1,13 +1,13 @@
 import React from 'react'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
 import GeneralCover from '../../sharedComponents/GeneralCover'
-import UnderConstruction from '../../UnderConstruction'
-import LegalContent from './LegalContent'
+import LegalObject from './LegalObject'
 
 function LegalMain() {
   return (
     <section>
       <GeneralCover />
-      <LegalContent />
+      <ContentTemplate object={LegalObject}/>
     </section>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
 import GeneralCover from '../../sharedComponents/GeneralCover'
-import PricingContent from './PricingContent'
+import PricingObject from './PricingObject'
 
 function PricingMain() {
   return (
     <div>
       <GeneralCover />
-      <PricingContent />
+      <ContentTemplate object={PricingObject}/>
     </div>
   )
 }

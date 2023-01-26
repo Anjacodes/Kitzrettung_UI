@@ -1,12 +1,13 @@
 import React from 'react'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
 import Cover from '../../sharedComponents/GeneralCover'
-import Intro from './Intro'
+import WorkObject from './WorkObject'
 
 function Work() {
   return (
     <section>
       <Cover />
-      <Intro />
+      <ContentTemplate object={WorkObject}/>
     </section>
   )
 }

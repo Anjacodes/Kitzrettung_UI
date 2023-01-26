@@ -1,12 +1,13 @@
 import React from 'react'
+import ContentTemplate from '../../sharedComponents/ContentTemplate'
 import GeneralCover from '../../sharedComponents/GeneralCover'
-import BiologieContent from './BiologieContent'
+import BiologieObject from './BiologieObject'
 
 function BiologieMain() {
   return (
     <div>
       <GeneralCover />
-      <BiologieContent />
+      <ContentTemplate object={BiologieObject}/>
     </div>
   )
 }
