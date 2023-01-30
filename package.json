@@ -21,6 +21,7 @@
     "react-countup": "^6.3.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^5.7.2",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
     "serve": "^14.0.1",
     "vite": "^3.0.0"
