@@ -5,19 +5,31 @@ import GeneralCover from '../../sharedComponents/GeneralCover'
 
 
 function GalerieMain() {
+
+  const scrollOnClick = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <div className='text-center'>
+    <>
       <GeneralCover />
-        <Carousel infiniteLoop autoPlay className='mt-12 w-[55vw]'>
-          <div className=''>
-            <img src="../../../../src/assets/BeiSonnenaufgang.jpg" alt="Vorbereitung zum Flug"/>
-          </div>
-          <div className=''>
-            <img src="../../../../src/assets/Drohne_Flug.jpg" alt="Vorbereitung zum Flug"/>
-          </div>
-  
-        </Carousel>
-    </div>
+        <div className='mx-[10vw] my-[20vh] flex flex-col items-center'>
+          <h2 className='mb-16'>GALERIE</h2>
+          <p className='text-base text-justify mb-20'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <i className="fa-solid fa-arrow-down hover:cursor-pointer" onClick={scrollOnClick}></i>
+          <Carousel infiniteLoop autoPlay className='mt-12 lg:w-[60vw]'>
+            <div className=''>
+              <img src="../../../../src/assets/BeiSonnenaufgang.jpg" alt="Vorbereitung zum Flug"/>
+            </div>
+            <div className=''>
+              <img src="../../../../src/assets/Drohne_Flug.jpg" alt="Vorbereitung zum Flug"/>
+            </div>
+          </Carousel>
+        </div>
+    </>
   )
 }
 
