@@ -6,7 +6,7 @@ import Work from './Work'
 
 function Content() {
   return (
-    <section className="mx-20 my-48 lg:mx-52">
+    <section className="mx-12 my-48 lg:mx-44 flex flex-col">
       <Mission />
       <Work />
       <Member />
