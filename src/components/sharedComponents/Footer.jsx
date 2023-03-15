@@ -30,6 +30,7 @@ function Footer() {
               <li><NavLink to="/verfahren" className="hover:text-first hover:cursor-pointer">Verfahren</NavLink></li>
               <li><NavLink to="/rechtliches" className="hover:text-first hover:cursor-pointer">Rechtliches</NavLink></li>
               <li><NavLink to="/kosten" className="hover:text-first hover:cursor-pointer">Kosten</NavLink></li>
+              <li><a href="https://order.webaro.cloud/?portal=rehkitzrettung-euskirchen.webaro.cloud" rel="noopener noreferrer" target="_blank"className="hover:text-first hover:cursor-pointer">Buch uns</a></li>
             </ul>
           </div>
           <div className="text-sm lg:mr-12 flex flex-col group">

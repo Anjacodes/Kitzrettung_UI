@@ -15,6 +15,7 @@ import Navbar from './components/sharedComponents/Navbar';
 import Contact from './components/Kontakt/Contact';
 import Impressum from './components/Impressum_Datenschutz/Impressum';
 import Datenschutz from './components/Impressum_Datenschutz/Datenschutz';
+import SpendenMain from './components/Spenden/SpendenMain';
 
 const App = () => {
 
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="kontakt" element={<Contact />} />
         <Route path="impressum" element={<Impressum />}/>
         <Route path="datenschutz" element={<Datenschutz />}/>
+        <Route path="spenden" element={<SpendenMain />}></Route>
       </Routes>
     </div>
   )

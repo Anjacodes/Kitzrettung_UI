@@ -37,9 +37,15 @@ function MobileMenu({visible, setMenuVisible}) {
             <li><NavLink to="/galerie" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Galerie</NavLink></li>
           </ul>
         </li>
-        <li><NavLink to="/kontakt" className="font-avenirHeavy mb-12 hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>KONTAKT</NavLink></li>
+        <li className="font-avenirHeavy mb-6 hover:cursor-pointer group">
+          <a className='hover:text-second'>KONTAKT</a>
+          <ul className='text-base hidden group-hover:block'>
+            <li><NavLink to="/kontakt" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Schreib uns</NavLink></li>
+            <li><a href="https://order.webaro.cloud/?portal=rehkitzrettung-euskirchen.webaro.cloud" rel="noopener noreferrer" target="_blank" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Buch uns</a></li>
+          </ul>
+        </li>
      </ul>
-      <a href="https://www.paypal.com/donate/?hosted_button_id=72SBW8E9S9MCN" target="_blank" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48">Spenden</a>
+      <NavLink to="/spenden" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48" onClick={() => setMenuVisible(false)}>Spenden</NavLink>
   </div>
   )}
 }

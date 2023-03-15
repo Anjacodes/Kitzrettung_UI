@@ -39,13 +39,17 @@ function Navbar({menuVisible, setMenuVisible}) {
           </ul>
         </li>
         <li className="ml-10 group">
-          <NavLink to="/kontakt" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider'>KONTAKT</NavLink>
+          <a className='text-white hover:cursor-pointer font-avenirHeavy tracking-wider '>KONTAKT</a>
+          <ul className='absolute pt-2 hidden group-hover:block'>
+            <li><NavLink to="/kontakt" className='hover:cursor-pointer hover:text-second'>Schreib uns</NavLink></li>
+            <li><a href="https://order.webaro.cloud/?portal=rehkitzrettung-euskirchen.webaro.cloud" className='hover:cursor-pointer hover:text-second' rel="noopener noreferrer" target="_blank">Buch uns</a></li>
+          </ul>
         </li>
         <li className="ml-10 group">
           <NavLink to="/blog" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider hidden'>BLOG</NavLink>
         </li>
       </ul>
-      <a href="https://www.paypal.com/donate/?hosted_button_id=72SBW8E9S9MCN" target="_blank" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-[#4b8c48]">Spenden</a>
+      <NavLink to="/spenden" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-[#4b8c48]">Spenden</NavLink>
     </nav>
   )
 }

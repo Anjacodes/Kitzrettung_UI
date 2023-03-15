@@ -13,7 +13,7 @@ module.exports = {
         'second' : '#45bf41',
         'third' : '#4b8c48',
         'fourth' : '#29592d',
-        'fifth' : '102613',
+        'fifth' : '#102613',
       },
       backgroundImage: {
         'arbeit': "url('https://images.unsplash.com/photo-1510133768164-a8f7e4d4e3dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80')",

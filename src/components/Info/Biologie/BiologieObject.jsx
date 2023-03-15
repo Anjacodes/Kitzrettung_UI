@@ -5,7 +5,7 @@ const BiologieObject = {
 
         "Das erwachsene männliche Reh wird als Rehbock (auch Bock) bezeichnet, das erwachsene weibliche Stück als Ricke. Die nicht-einjährigen Jungtiere werden als Rehkitze bezeichnet. Einjährige weibliche Tiere werden Schmalrehe genannt. Rehe sind Wiederkäuer und werden als Konzentratselektierer bezeichnet, da sie bevorzugt eiweißreiches Futter äsen. Während des Sommerhalbjahrs leben Rehe überwiegend einzeln oder in Familientrupps, die aus einer Ricke und ihren Kitzen bestehen. Im Winter bilden sich sogenannte Sprünge, die meist nicht mehr als drei oder vier Tiere verschiedenen Geschlechts umfassen.",
 
-        <>Das Rehwild unterliegt dem Jagdrecht und wird dem <a href={"https://wildeswissen.de/2015/09/07/schalenwild/"} target="_blank" rel="noopener" className="text-blue-600 hover:underline">Schalenwild</a> zugeordnet. Die Jagdstrecke beträgt allein auf dem Gebiet Deutschlands jährlich mehr als eine Million Stück.</>, 
+        <>Das Rehwild unterliegt dem Jagdrecht und wird dem <a href={"https://wildeswissen.de/2015/09/07/schalenwild/"} target="_blank" rel="noopener" className="text-second hover:underline">Schalenwild</a> zugeordnet. Die Jagdstrecke beträgt allein auf dem Gebiet Deutschlands jährlich mehr als eine Million Stück.</>, 
 
         "Das Reh ist ein ausgeprägt geruchlich orientiertes Tier. Rehe sind in der Lage, bereits geringe Duftreize wahrzunehmen und riechen einen Menschen aus einer Entfernung von 300 bis 400 Metern. Die seitlich stehenden Augen erlauben dem Reh ohne Kopfdrehung einen weiten Umkreis zu überblicken. Rehe reagieren besonders auf Bewegungen, das Erkennungsvermögen für unbewegte Gegenstände ist nicht sehr hoch entwickelt.",
 
