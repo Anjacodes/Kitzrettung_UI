@@ -49,7 +49,7 @@ function Footer() {
             <h3 className='text-white'>FOLLOW US</h3>
             <div className='mb-6'>
               <i className="fa-brands fa-facebook mr-3"></i>
-              <i className="fa-brands fa-instagram"></i>
+              <a href="https://instagram.com/rehkitzrettung_euskirchen?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener" className='hover:cursor-pointer'><i className="fa-brands fa-instagram"></i></a>
             </div>
             <NavLink to="/" className=' text-white text-sm lg:hidden hover:cursor-pointer hover:text-first'>Rehkitzrettung Kreis Euskirchen e.V.</NavLink>
           </div>
