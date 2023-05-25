@@ -46,7 +46,7 @@ function Navbar({menuVisible, setMenuVisible}) {
           </ul>
         </li>
         <li className="ml-10 group">
-          <NavLink to="/blog" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider hidden'>BLOG</NavLink>
+          <NavLink to="/blog" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider'>BLOG</NavLink>
         </li>
       </ul>
       <NavLink to="/spenden" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-[#4b8c48]">Spenden</NavLink>

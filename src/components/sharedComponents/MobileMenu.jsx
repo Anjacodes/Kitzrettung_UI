@@ -9,11 +9,11 @@ function MobileMenu({visible, setMenuVisible}) {
 
   if (visible) {
     return (
-    <div className='h-screen w-screen fixed top-0 bg-[#102613] text-white py-24 px-20'>
-      <Link to="/" className="hover:cursor-pointer"><img src={logo} className="w-28 mb-6" onClick={() => setMenuVisible(false)} /></Link>
-     <ul className='mb-12'>
-        <li className='font-avenirHeavy mb-6'><NavLink to="/" className="font-avenirHeavy mb-12 hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>HOME</NavLink></li>
-        <li className="font-avenirHeavy mb-6 hover:cursor-pointe group">
+    <div className='h-screen w-screen fixed top-0 bg-[#102613] text-white py-20 px-20'>
+      <Link to="/" className="hover:cursor-pointer"><img src={logo} className="ml-auto w-28 mb-3" onClick={() => setMenuVisible(false)} /></Link>
+     <ul className='mb-8'>
+        <li className='font-avenirHeavy mb-4'><NavLink to="/" className="font-avenirHeavy hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>HOME</NavLink></li>
+        <li className="font-avenirHeavy mb-4 hover:cursor-pointe group">
           <a className='hover:text-second'>ÜBER UNS</a>
           <ul className='text-base hidden group-hover:block'>
             <li><NavLink to="/motivation" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Unsere Motivation</NavLink></li>
@@ -21,7 +21,7 @@ function MobileMenu({visible, setMenuVisible}) {
             <li><NavLink to="/arbeit" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Unsere Arbeit</NavLink></li>
           </ul>
         </li>
-        <li className="font-avenirHeavy mb-6 hover:cursor-pointer group">
+        <li className="font-avenirHeavy mb-4 hover:cursor-pointer group">
           <a className='hover:text-second'>LEISTUNGEN</a>
           <ul className='text-base hidden group-hover:block'>
             <li><NavLink to="/verfahren" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Verfahren</NavLink></li>
@@ -29,7 +29,7 @@ function MobileMenu({visible, setMenuVisible}) {
             <li><NavLink to="kosten" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Kosten</NavLink></li>
           </ul>
         </li>
-        <li className="font-avenirHeavy mb-6 hover:cursor-pointer group">
+        <li className="font-avenirHeavy mb-4 hover:cursor-pointer group">
           <a className='hover:text-second'>WISSENSWERTES</a>
           <ul className='text-base hidden group-hover:block'>
             <li><NavLink to="/biologie" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Biologie</NavLink></li>
@@ -37,13 +37,14 @@ function MobileMenu({visible, setMenuVisible}) {
             <li><NavLink to="/galerie" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Galerie</NavLink></li>
           </ul>
         </li>
-        <li className="font-avenirHeavy mb-6 hover:cursor-pointer group">
+        <li className="font-avenirHeavy mb-4 hover:cursor-pointer group">
           <a className='hover:text-second'>KONTAKT</a>
           <ul className='text-base hidden group-hover:block'>
             <li><NavLink to="/kontakt" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Schreib uns</NavLink></li>
             <li><a href="https://order.webaro.cloud/?portal=rehkitzrettung-euskirchen.webaro.cloud" rel="noopener noreferrer" target="_blank" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>Buch uns</a></li>
           </ul>
         </li>
+        <li className="font-avenirHeavy hover:cursor-pointer"><NavLink to="/blog" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>BLOG</NavLink></li>
      </ul>
       <NavLink to="/spenden" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48" onClick={() => setMenuVisible(false)}>Spenden</NavLink>
   </div>

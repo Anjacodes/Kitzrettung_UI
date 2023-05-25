@@ -16,6 +16,7 @@ import Contact from './components/Kontakt/Contact';
 import Impressum from './components/Impressum_Datenschutz/Impressum';
 import Datenschutz from './components/Impressum_Datenschutz/Datenschutz';
 import SpendenMain from './components/Spenden/SpendenMain';
+import PostDetail from './components/Blog/PostDetail';
 
 const App = () => {
 
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="technik" element={<TechnikMain />}/>
         <Route path="galerie" element={<GalerieMain />}/>
         <Route path="blog" element={<BlogMain />}/>
+            <Route path="blog/:id" element={<PostDetail />}/>
         <Route path="kontakt" element={<Contact />} />
         <Route path="impressum" element={<Impressum />}/>
         <Route path="datenschutz" element={<Datenschutz />}/>
