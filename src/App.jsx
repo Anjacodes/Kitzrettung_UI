@@ -17,6 +17,7 @@ import Impressum from './components/Impressum_Datenschutz/Impressum';
 import Datenschutz from './components/Impressum_Datenschutz/Datenschutz';
 import SpendenMain from './components/Spenden/SpendenMain';
 import PostDetail from './components/Blog/PostDetail';
+import Ticker from './components/sharedComponents/Ticker';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <div className="App text-3xl">
+      <Ticker />
       <Navbar menuVisible={menuVisible} setMenuVisible={setMenuVisible} />
       <Routes>
         <Route path="/" element={<Main menuVisible={menuVisible} setMenuVisible={setMenuVisible} />}/>

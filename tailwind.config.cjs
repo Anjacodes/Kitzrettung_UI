@@ -3,6 +3,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      animation: {
+        ticker: "ticker 20s linear infinite",
+      },
+      keyframes: {
+        ticker: {
+          "0%": { transform: "translate3d(100%, 0%, 0px)" },
+          "100%": { transform: "translate3d(-100%, 0%, 0px)" },
+        },
+      },
       fontFamily: {
         avenirHeavy: ['AvenirHeavy'],
         avenirLight: ['AvenirLight'],
