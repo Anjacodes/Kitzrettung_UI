@@ -1,5 +1,5 @@
 const zahlen = {
-  missionen: 25,
+  missionen: 45,
   gerettet: 52,
   flächen: 20,
 };
