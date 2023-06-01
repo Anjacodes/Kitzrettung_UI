@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        ticker: "ticker 20s linear infinite",
+        ticker: "ticker 30s linear infinite",
       },
       keyframes: {
         ticker: {
-          "0%": { transform: "translate3d(100%, 0%, 0px)" },
-          "100%": { transform: "translate3d(-100%, 0%, 0px)" },
+          "0%": { transform: "translate3d(70%,0,0)" },
+          "100%": { transform: "translate3d(-150%, 0, 0)" },
         },
       },
       fontFamily: {
