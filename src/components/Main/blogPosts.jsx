@@ -1,10 +1,11 @@
-import artikel from '../../assets/Wochenspiegel.pdf';
+import artikel from '/src/assets/Wochenspiegel.png';
+// ../../assets/Wochenspiegel.pdf
 
 const posts = [
   {
     id: 1,
     title: 'BEITRAG IM KÖLNER STADTANZEIGER',
-    imageURL: '/src/assets/Wochenspiegel.png',
+    imageURL: `${artikel}`,
     info: {
       dateCreated: '19. April 2023',
     },

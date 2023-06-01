@@ -16,7 +16,7 @@ function News() {
         {posts.map(post => {
           return (
             <article className="mb-20 lg:mb-0" key={post.id}>
-              <img src={post.imageURL} className="w-full h-80"/>
+              <Link to={`/blog/${post.id}`}><img src={post.imageURL} className="w-full h-80"/></Link>
               <h3 className="text-lg mt-4">{post.title}</h3>
               <div className="flex items-center text-sm text-slate-500 my-3">
                 <p className="mr-6">{post.info.dateCreated}</p>
