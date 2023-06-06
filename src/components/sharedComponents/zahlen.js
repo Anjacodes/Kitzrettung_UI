@@ -1,7 +1,7 @@
 const zahlen = {
-  missionen: 45,
-  gerettet: 52,
-  flächen: 20,
+  missionen: 63,
+  gerettet: 87,
+  flächen: 169,
 };
 
 export default zahlen;
