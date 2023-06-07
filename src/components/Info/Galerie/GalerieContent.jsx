@@ -1,7 +1,14 @@
 // #build a reactive image Carousel
 import React from 'react';
-import { Carousel, CarouselWrapper } from 'react-responsive-carousel'
+import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Drohne from "/src/assets/Drohne_Flug.jpg";
+import Sonnenaufgang from "/src/assets/Sonnenaufgang.jpg";
+import Drohne_fliegt from "/src/assets/Drohne_fliegt.jpg";
+import Rehkitz_aufheben from "/src/assets/Rehkitz_aufheben.jpg";
+import Rehkitz_tragen from "/src/assets/Rehkitz_tragen.jpg";
+import RehkitzII from "/src/assets/Rehkitz_II.jpg";
+
 
 const GalerieContent = () => {
     return (
@@ -16,25 +23,22 @@ const GalerieContent = () => {
                 showIndicators={false} 
                 interval={4000}>
                 <div>
-                    <img src="/src/assets/Drohne_Flug.jpg" alt="galerie" />
+                    <img src={Drohne} alt="galerie" />
                 </div>
                 <div>
-                    <img src="/src/assets/BeiSonnenaufgang.jpg" alt="galerie" />
+                    <img src={Sonnenaufgang} alt="galerie" />
                 </div>
                 <div>
-                    <img src="/src/assets/Drohne_fliegt.JPG" alt="galerie" />
+                    <img src={Drohne_fliegt} alt="galerie" />
                 </div>
                 <div>
-                    <img src="/src/assets/Rehkitz_aufheben.jpg" alt="galerie" />
+                    <img src={Rehkitz_aufheben} alt="galerie" />
                 </div>
                 <div>
-                    <img src="/src/assets/Rehkitz_tragen.jpg" alt="galerie" />
+                    <img src={Rehkitz_tragen} alt="galerie" />
                 </div>
                 <div>
-                    <img src="/src/assets/Sonnenaufgang.JPG" alt="galerie" />
-                </div>
-                <div>
-                    <img src="/src/assets/Rehkitz_II.JPG" alt="galerie" />
+                    <img src={RehkitzII} alt="galerie" />
                 </div>
             </Carousel>
           </div>

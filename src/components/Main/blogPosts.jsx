@@ -1,5 +1,4 @@
 import artikel from '/src/assets/Wochenspiegel.png';
-// ../../assets/Wochenspiegel.pdf
 
 const posts = [
   {
