@@ -2,12 +2,12 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Drohne from '/src/assets/Drohne_Flug.jpg';
+// import Drohne from '/src/assets/Drohne_Flug.jpg';
 // import Sonnenaufgang from "/src/assets/Sonnenaufgang.jpg";
-import Drohne_fliegt from '/src/assets/Drohne_fliegt.jpg';
-import Rehkitz_aufheben from '/src/assets/Rehkitz_aufheben.jpg';
-import Rehkitz_tragen from '/src/assets/Rehkitz_tragen.jpg';
-import RehkitzII from '/src/assets/Rehkitz_II.jpg';
+// import Drohne_fliegt from '/src/assets/Drohne_fliegt.jpg';
+// import Rehkitz_aufheben from '/src/assets/Rehkitz_aufheben.jpg';
+// import Rehkitz_tragen from '/src/assets/Rehkitz_tragen.jpg';
+// import RehkitzII from '/src/assets/Rehkitz_II.jpg';
 
 
 const GalerieContent = () => {
@@ -23,22 +23,22 @@ const GalerieContent = () => {
                 showIndicators={false} 
                 interval={4000}>
                 <div>
-                    <img src={Drohne} alt="galerie" />
-                </div>
-                {/* <div>
-                    <img src={Sonnenaufgang} alt="galerie" />
-                </div> */}
-                <div>
-                    <img src={Drohne_fliegt} alt="galerie" />
+                    <img src='/src/assets/Drohne_Flug.jpg' alt="galerie" />
                 </div>
                 <div>
-                    <img src={Rehkitz_aufheben} alt="galerie" />
+                    <img src="/src/assets/Sonnenaufgang.jpg" alt="galerie" />
                 </div>
                 <div>
-                    <img src={Rehkitz_tragen} alt="galerie" />
+                    <img src='/src/assets/Drohne_fliegt.jpg' alt="galerie" />
                 </div>
                 <div>
-                    <img src={RehkitzII} alt="galerie" />
+                    <img src='/src/assets/Rehkitz_aufheben.jpg' alt="galerie" />
+                </div>
+                <div>
+                    <img src='/src/assets/Rehkitz_tragen.jpg' alt="galerie" />
+                </div>
+                <div>
+                    <img src='/src/assets/Rehkitz_II.jpg' alt="galerie" />
                 </div>
             </Carousel>
           </div>
