@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import Credo from '../../assets/BeiSonnenaufgang.jpg';
-import Drohnenflug from '../../assets/Drohne_Flug.jpg';
+import Drohnenflug from '/assets/images/Drohne_Flug.jpg';
 import Satzung from '../../assets/Vereinssatzung-Rehkitz.pdf'
 
 function Work() {
