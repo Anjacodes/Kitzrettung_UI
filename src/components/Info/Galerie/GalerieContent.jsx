@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Drohne from '/assets/images/Drohne_Flug.jpg';
 import Sonnenaufgang from '/assets/images/Sonnenaufgang.png';
-import Drohne_fliegt from '/assets/images/Drohne_fliegt.png';
+import Drohne_fliegt from '/assets/images/Drohne_fliegt.jpg';
 import Rehkitz_aufheben from '/assets/images/Rehkitz_aufheben.png';
 import Rehkitz_tragen from '/assets/images/Rehkitz_tragen.jpg';
 import RehkitzII from '/assets/images/Rehkitz_II.jpg';
