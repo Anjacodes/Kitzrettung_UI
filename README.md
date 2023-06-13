@@ -34,10 +34,17 @@ This project has been deployed with [Netlify](https://www.netlify.com/) and can 
 <br>
 
 ### Desktop Views:
+<br>
+
+![Desktop Preview](/src/assets/Preview.png)
 
 <br>
 
 ### Mobile Views:
+
+<br>
+
+![Mobile Preview](/src/assets/Preview_mobile.png)
 
 <br>
 
