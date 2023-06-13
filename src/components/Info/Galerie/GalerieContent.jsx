@@ -12,7 +12,7 @@ import RehkitzII from '/assets/images/Rehkitz_II.jpg';
 export default function GalerieContent() {
   return (
     <div className='my-16 flex flex-col items-center'>
-      <div className='lg:w-[70%]'>
+      <div className='lg:w-[70%] w-[90%]'>
         <Carousel
           autoPlay
           infiniteLoop
