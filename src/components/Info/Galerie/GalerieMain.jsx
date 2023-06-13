@@ -7,9 +7,8 @@ import GeneralCover from '../../sharedComponents/GeneralCover'
 function GalerieMain() {
   return (
     <>
-      <UnderConstruction />
-      {/* <GeneralCover />
-      <GalerieContent /> */}
+      <GeneralCover />
+      <GalerieContent />
     </>
   )
 }
