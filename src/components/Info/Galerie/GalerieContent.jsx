@@ -2,12 +2,12 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-// import Drohne from '/src/assets/Drohne_Flug.jpg';
-// import Sonnenaufgang from "/src/assets/Sonnenaufgang.jpg";
-// import Drohne_fliegt from '/src/assets/Drohne_fliegt.jpg';
-// import Rehkitz_aufheben from '/src/assets/Rehkitz_aufheben.jpg';
-// import Rehkitz_tragen from '/src/assets/Rehkitz_tragen.jpg';
-// import RehkitzII from '/src/assets/Rehkitz_II.jpg';
+import Drohne from '/assets/images/Drohne_Flug.jpg';
+import Sonnenaufgang from '/assets/images/Sonnenaufgang.jpg';
+import Drohne_fliegt from '/assets/images/Drohne_fliegt.jpg';
+import Rehkitz_aufheben from '/assets/images/Rehkitz_aufheben.jpg';
+import Rehkitz_tragen from '/assets/images/Rehkitz_tragen.jpg';
+import RehkitzII from '/assets/images/Rehkitz_II.jpg';
 
 export default function GalerieContent() {
   return (
@@ -23,22 +23,22 @@ export default function GalerieContent() {
           interval={4000}
         >
           <div>
-            <img src='/assets/images/Drohne_Flug.jpg' alt='galerie' />
+            <img src={Drohne} alt='Drohne bei Sonnenaufgang' />
           </div>
           <div>
-            <img src='/assets/images/Sonnenaufgang.jpg' alt='galerie' />
+            <img src={Sonnenaufgang} alt='Sonneaufgang über einem Feld' />
           </div>
           <div>
-            <img src='/assets/images/Drohne_fliegt.jpg' alt='galerie' />
+            <img src={Drohne_fliegt} alt='Drohne im Flug' />
           </div>
           <div>
-            <img src='/assets/images/Rehkitz_aufheben.jpg' alt='galerie' />
+            <img src={Rehkitz_aufheben} alt='Rehkitz aufheben' />
           </div>
           <div>
-            <img src='/assets/images/Rehkitz_tragen.jpg' alt='galerie' />
+            <img src={Rehkitz_tragen} alt='Rehkitz tragen' />
           </div>
           <div>
-            <img src='/assets/images/Rehkitz_II.jpg' alt='galerie' />
+            <img src={RehkitzII} alt='Gerettetes Rehkitz' />
           </div>
         </Carousel>
       </div>
