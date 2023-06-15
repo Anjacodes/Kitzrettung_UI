@@ -46,7 +46,10 @@ function MobileMenu({visible, setMenuVisible}) {
         </li>
         <li className="font-avenirHeavy hover:cursor-pointer"><NavLink to="/blog" className='hover:text-second hover:cursor-pointer' onClick={() => setMenuVisible(false)}>BLOG</NavLink></li>
      </ul>
-      <NavLink to="/spenden" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 lg:block hover:cursor-pointer hover:bg-[#4b8c48" onClick={() => setMenuVisible(false)}>Spenden</NavLink>
+     <div className='flex justify-normal'>
+        <NavLink to="/spenden" className="text-white text-lg text-center rounded-3xl bg-[#45bf41] py-3 w-28 mr-4 hover:cursor-pointer hover:bg-white hover:text-second" onClick={() => setMenuVisible(false)}>Spenden</NavLink>
+        <a href="https://order.webaro.cloud/?portal=rehkitzrettung-euskirchen.webaro.cloud" target="_blank" className="text-second text-lg text-center rounded-3xl bg-white py-3 w-28 lg:block hover:cursor-pointer hover:bg-second hover:text-white" onClick={() => setMenuVisible(false)}>Buchen</a>
+     </div>
   </div>
   )}
 }

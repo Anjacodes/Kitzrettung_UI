@@ -12,8 +12,8 @@ function Navbar({menuVisible, setMenuVisible}) {
         { menuVisible ? (<i className="fa-solid fa-xmark"></i>) : (<i className="fa-solid fa-bars lg:hidden" ></i>)
         }
       </button>
-      <Link to="/" className="hover:cursor-pointer hidden lg:block hover:scale-125"><img src={logo} className="w-40"/></Link>
-      <ul className="hidden lg:flex ml-10 text-lg">
+      <Link to="/" className="hover:cursor-pointer hidden lg:block hover:scale-125"><img src={logo} className="w-36"/></Link>
+      <ul className="hidden lg:flex ml-4 mr-4 text-lg">
         <li className="ml-10 group">
           <h3 className='text-white hover:cursor-pointer font-avenirHeavy tracking-wider '>ÜBER UNS</h3>
           <ul className='absolute pt-2 hidden group-hover:block'>
@@ -49,7 +49,8 @@ function Navbar({menuVisible, setMenuVisible}) {
           <NavLink to="/blog" className='hover:text-second hover:scale-125 hover:cursor-pointer font-avenirHeavy tracking-wider'>BLOG</NavLink>
         </li>
       </ul>
-      <NavLink to="/spenden" className="text-white text-lg rounded-3xl bg-[#45bf41] py-3 px-7 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-[#4b8c48]">Spenden</NavLink>
+      <NavLink to="/spenden" className="text-white text-lg text-center rounded-3xl bg-second py-3 w-28 hidden ml-auto lg:block hover:cursor-pointer hover:bg-white hover:text-second">Spenden</NavLink>
+      <a href="https://order.webaro.cloud/?portal=rehkitzrettung-euskirchen.webaro.cloud" target="_blank" className="text-second text-lg text-center rounded-3xl bg-white py-3 w-28 mr-[10%] hidden ml-auto lg:block hover:cursor-pointer hover:bg-second hover:text-white">Buchen</a>
     </nav>
   )
 }
