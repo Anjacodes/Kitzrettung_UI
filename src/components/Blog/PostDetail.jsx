@@ -1,19 +1,20 @@
 import React from 'react'
 import blogPosts from '../Main/blogPosts';
 import GeneralCover from '../sharedComponents/GeneralCover';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const PostDetail = () => {
 
 const navigate = useNavigate();
+const pathName = useLocation();
 
 const openPost = (id) => {
     const post = blogPosts.find((post) => post.id === id);
+    console.log(id);
     return post;
 }
 
-const post_id = 1;
-
+const post_id = parseInt(pathName.pathname.slice(-1));
 const post = openPost(post_id);
 
 
