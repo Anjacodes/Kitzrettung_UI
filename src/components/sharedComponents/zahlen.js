@@ -1,7 +1,11 @@
 const zahlen = {
-  missionen: 63,
-  gerettet: 87,
-  flächen: 169,
+  missionen: 82,
+  gerettet: 101,
+  flächen: 176,
+  saison_kitze: 76,
+  saison_hasen: 2,
+  saison_fasanengelege: 1,
+  saison_rotwild: 1
 };
 
 export default zahlen;
