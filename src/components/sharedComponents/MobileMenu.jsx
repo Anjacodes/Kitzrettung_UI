@@ -9,7 +9,7 @@ function MobileMenu({visible, setMenuVisible}) {
 
   if (visible) {
     return (
-    <div className='h-screen w-screen fixed top-0 bg-[#102613] text-white py-20 px-20'>
+    <div className='h-screen w-screen fixed top-0 bg-[#102613] text-white py-20 px-20 z-10'>
       <Link to="/" className="hover:cursor-pointer"><img src={logo} className="ml-auto w-28 mb-3" onClick={() => setMenuVisible(false)} /></Link>
      <ul className='mb-8'>
         <li className='font-avenirHeavy mb-4'><NavLink to="/" className="font-avenirHeavy hover:text-second hover:cursor-pointer" onClick={() => setMenuVisible(false)}>HOME</NavLink></li>
