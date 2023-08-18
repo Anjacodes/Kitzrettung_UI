@@ -13,7 +13,7 @@ function Stats({menuVisible }) {
 
   if (!menuVisible) {
     return (
-      <div className="absolute bottom-0 mb-6 text-white w-[85vw] flex justify-center z-0">
+      <div className="hidden absolute bottom-0 mb-6 text-white w-[85vw] flex justify-center z-0">
           <div className="flex flex-col justify-between items-center mr-auto">
             <a href='https://instagram.com/rehkitzrettung_euskirchen?igshid=ZDdkNTZiNTM=' target="_blank" rel="noopener"><i className="fa-brands fa-instagram text-white hover:cursor-pointer mb-2"></i></a>
             <i className="fa-brands fa-facebook text-white hover:cursor-pointer"></i>
