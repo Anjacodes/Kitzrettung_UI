@@ -9,7 +9,7 @@ function ContactForm() {
   }
 
   return (
-    <form className="text-center flex flex-col text-base items-center w-full my-48" action="https://formspree.io/f/mdojkowl" method="POST">
+    <form className="text-center flex flex-col text-base items-center w-full my-48" action="https://formspree.io/f/moqyzrgj" method="POST">
       <h2 className='mb-4 text-2xl tracking-wide'>SCHREIBE UNS!</h2>
       <p className='w-2/3 lg:w-1/3 mb-5'>Wir bearbeiten jede Anfrage persönlich. Daher kann es bis zu 48 Stunden dauern, bis du von uns hörst. Danke für dein Verständnis!</p>
       <p className='w-2/3 mb-5'>Gerne erreichst du uns auch telefonisch unter 0151 742 549 53.</p>
